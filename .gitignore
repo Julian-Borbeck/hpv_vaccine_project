@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Local-only files (not for GitHub)
+doc/fig/Socio_Econ/
+exp/socio_mediation_detailed.ipynb
+Socio-Econ/
+.github/
+
+
+# Data files - UNCOMMENT later to exclude large data files
+# dat/raw/*.csv
+# dat/processed/*.csv
+# dat/cleaned/*.csv
+
+# Generated figures - UNCOMMENT later to exclude output files
+# fig_*.pdf
+# fig_*.png
+# fig_*.jpg
+# doc/**/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
