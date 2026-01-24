@@ -58,3 +58,4 @@ Thumbs.db
 
 # Environment variables
 .env
+src/data_cleaning/
