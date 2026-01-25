@@ -28,6 +28,7 @@ WHO_VAX_YEAR = 2024
 WHO_VAX_DOSE = "last dose"
 WHO_VAX_SEX = "females"
 WHO_VAX_ANTIGEN = f"HPV Vaccination program coverage, {WHO_VAX_DOSE}, {WHO_VAX_SEX}"
+FIRST_DOSE_PATH = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/first_dose_coverage.xlsx"
 
 ADD_COLS = [
     "HPV_PRIM_DELIV_STRATEGY",
@@ -37,6 +38,7 @@ ADD_COLS = [
 ]
 
 WHO_COV_COL = "LAST_DOSE_COV"
+FIRST_DOSE_COL = "FIRST_DOSE_COV"
 
 
 def merge_delivery_dosing(dosing_path: Path, delivery_path: Path) -> pd.DataFrame:
@@ -78,6 +80,24 @@ def build_coverage_sheet(
 
     df_cov = df_cov[["ISO_3_CODE"] + ADD_COLS].rename(columns={"ISO_3_CODE": "country_code"})
 
+    df_first = pd.read_excel(FIRST_DOSE_PATH, engine="openpyxl")
+    if "YEAR" in df_first.columns:
+        df_first = df_first[df_first["YEAR"] == WHO_VAX_YEAR]
+    if "CODE" in df_first.columns:
+        df_first = df_first.rename(columns={"CODE": "country_code"})
+    elif "ISO_3_CODE" in df_first.columns:
+        df_first = df_first.rename(columns={"ISO_3_CODE": "country_code"})
+    if "country_code" not in df_first.columns:
+        raise ValueError("Expected country code column in first_dose_coverage.xlsx.")
+    if "COVERAGE" not in df_first.columns:
+        raise ValueError("Expected column COVERAGE in first_dose_coverage.xlsx.")
+    df_first = (
+        df_first[["country_code", "COVERAGE"]]
+        .rename(columns={"COVERAGE": FIRST_DOSE_COL})
+    )
+    df_first[FIRST_DOSE_COL] = pd.to_numeric(df_first[FIRST_DOSE_COL], errors="coerce")
+    df_cov = df_cov.merge(df_first, on="country_code", how="left")
+
     df_who = pd.read_csv(WHO_VAX_PATH, sep="\t")
     df_who = df_who[
         (df_who["YEAR"] == WHO_VAX_YEAR)
@@ -100,6 +120,7 @@ def build_coverage_sheet(
         df_cov = df_cov.drop(columns=[who_col])
 
     df_base = pd.read_excel(final_book, sheet_name=source_sheet, engine="openpyxl")
+    # df_base = df_base[[c for c in df_base.columns if c not in ADD_COLS + [WHO_COV_COL]]]
     drop_cols = ADD_COLS + [WHO_COV_COL, "first_d_cov", "last_d_cov"]
     df_base = df_base[[c for c in df_base.columns if c not in drop_cols]]
 
