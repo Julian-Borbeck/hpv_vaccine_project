@@ -11,7 +11,8 @@ Multi-faceted analysis of HPV vaccine
 Analysis of HPV vaccine access, prices, and uptake across countries and their relationship to socio-economic characteristics.
 
 ### Bio_surface
-Biological surface analysis component.
+Analysis of HPV vaccine coverage and HPV related cancer incidence
+Visualization of vaccine trends over the years for each WHO region
 
 ### Bio_deep
 Biological deep analysis component.
