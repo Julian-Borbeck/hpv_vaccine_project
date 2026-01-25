@@ -12,6 +12,7 @@ Analysis of HPV vaccine access, prices, and uptake across countries and their re
 
 ### Bio_surface
 Analysis of HPV vaccine coverage and HPV related cancer incidence
+
 Visualization of vaccine trends over the years for each WHO region
 
 ### Bio_deep
