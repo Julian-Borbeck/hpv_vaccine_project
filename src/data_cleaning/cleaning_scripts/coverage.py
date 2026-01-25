@@ -23,14 +23,20 @@ INTERM_PATH = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/merged_coverage.xlsx
 FINAL_BOOK = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
 SOURCE_SHEET = "hpv_vax_2024"
 FINAL_SHEET = "coverage_2024"
+WHO_VAX_PATH = PROJECT_ROOT / "dat/Bio_surface/who_vax_country.tsv"
+WHO_VAX_YEAR = 2024
+WHO_VAX_DOSE = "last dose"
+WHO_VAX_SEX = "females"
+WHO_VAX_ANTIGEN = f"HPV Vaccination program coverage, {WHO_VAX_DOSE}, {WHO_VAX_SEX}"
 
 ADD_COLS = [
-    "HPV1_COVERAGELASTYEAR",
     "HPV_PRIM_DELIV_STRATEGY",
     "HPV_INT_DOSES",
     "Gavi Status",
     "HPV_NATIONAL_SCHEDULE",
 ]
+
+WHO_COV_COL = "LAST_DOSE_COV"
 
 
 def merge_delivery_dosing(dosing_path: Path, delivery_path: Path) -> pd.DataFrame:
@@ -72,8 +78,30 @@ def build_coverage_sheet(
 
     df_cov = df_cov[["ISO_3_CODE"] + ADD_COLS].rename(columns={"ISO_3_CODE": "country_code"})
 
+    df_who = pd.read_csv(WHO_VAX_PATH, sep="\t")
+    df_who = df_who[
+        (df_who["YEAR"] == WHO_VAX_YEAR)
+        & (df_who["ANTIGEN_DESCRIPTION"] == WHO_VAX_ANTIGEN)
+    ]
+    df_who = (
+        df_who[["CODE", "COVERAGE"]]
+        .rename(columns={"CODE": "country_code", "COVERAGE": WHO_COV_COL})
+    )
+    df_who[WHO_COV_COL] = pd.to_numeric(
+        df_who[WHO_COV_COL], errors="coerce"
+    )
+
+    df_cov = df_cov.merge(
+        df_who, on="country_code", how="left", suffixes=("", "_who")
+    )
+    who_col = f"{WHO_COV_COL}_who"
+    if who_col in df_cov.columns:
+        df_cov[WHO_COV_COL] = df_cov[who_col].combine_first(df_cov.get(WHO_COV_COL))
+        df_cov = df_cov.drop(columns=[who_col])
+
     df_base = pd.read_excel(final_book, sheet_name=source_sheet, engine="openpyxl")
-    df_base = df_base[[c for c in df_base.columns if c not in ADD_COLS]]
+    drop_cols = ADD_COLS + [WHO_COV_COL, "first_d_cov", "last_d_cov"]
+    df_base = df_base[[c for c in df_base.columns if c not in drop_cols]]
 
     df_out = df_base.merge(df_cov, on="country_code", how="left")
 
