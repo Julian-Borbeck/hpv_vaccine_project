@@ -64,3 +64,5 @@ exp/socio_mediation_analysis.ipynb
 
 # Local changes only - ignore whole folders
 vaccine_cancer_analysis/
+src/data_cleaning/cleaning_scripts/coverage.py
+
