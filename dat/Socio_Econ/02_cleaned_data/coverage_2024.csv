@@ -1,0 +1,154 @@
+GROUP,CODE,NAME,YEAR,ANTIGEN,ANTIGEN_DESCRIPTION,COVERAGE_CATEGORY,COVERAGE_CATEGORY_DESCRIPTION,TARGET_NUMBER,DOSES,FIRST_COVERAGE,REGION,HPV_INT_DOSES,HPV_PRIM_DELIV_STRATEGY,LAST_COVERAGE,gavi_2024,Gavi Status
+COUNTRIES,ALB,Albania,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,15681.0,6771.0,43.0,EUR,1 dose,Facility-based,43.0,,Non-Gavi
+COUNTRIES,AND,Andorra,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,92.0,EUR,2 doses (6 months),School-based,82.0,,Non-Gavi
+COUNTRIES,ATG,Antigua and Barbuda,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,2.0,AMR,2 doses (6 months),Facility-based,1.0,,Non-Gavi
+COUNTRIES,ARG,Argentina,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,361147.0,199364.0,55.0,AMR,1 dose,Varies by region/province,55.0,,Non-Gavi
+COUNTRIES,ARM,Armenia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,19330.0,7341.0,38.0,EUR,1 dose,Facility-based,31.0,mic_former_gavi,Non-Gavi
+COUNTRIES,AUS,Australia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,160411.0,117843.0,73.0,WPR,1 dose,School-based,73.0,,Non-Gavi
+COUNTRIES,AUT,Austria,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,41959.0,22394.0,53.0,EUR,2 doses (6 months),School-based,31.0,,Non-Gavi
+COUNTRIES,AZE,Azerbaijan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,Not yet introduced,,,mic_former_gavi,Non-Gavi
+COUNTRIES,BHS,Bahamas,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,2634.0,652.0,25.0,AMR,,School-based,3.0,,Non-Gavi
+COUNTRIES,BHR,Bahrain,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,9573.0,7046.0,74.0,EMR,2 doses (6 months),,,,Non-Gavi
+COUNTRIES,BGD,Bangladesh,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,6483338.0,5857586.0,90.0,SEAR,1 dose,,90.0,Accelerated transition phase,Gavi
+COUNTRIES,BRB,Barbados,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1622.0,704.0,43.0,AMR,1 dose,School-based,43.0,,Non-Gavi
+COUNTRIES,BLR,Belarus,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,2 doses (6 months),School-based,,,Non-Gavi
+COUNTRIES,BEL,Belgium,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,80.0,EUR,2 doses (6 months),School-based,72.0,,Non-Gavi
+COUNTRIES,BLZ,Belize,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,3691.0,2276.0,62.0,AMR,1 dose,School-based,62.0,mic_never_gavi,Non-Gavi
+COUNTRIES,BTN,Bhutan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,6168.0,5772.0,94.0,SEAR,1 dose,School-based,92.0,mic_former_gavi,Non-Gavi
+COUNTRIES,BOL,Bolivia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,120177.0,94292.0,78.0,AMR,1 dose,School-based,78.0,mic_former_gavi,Non-Gavi
+COUNTRIES,BIH,Bosnia and Herzegovina,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,14550.0,492.0,3.0,EUR,2 doses (6 months),mixed,9.0,,Non-Gavi
+COUNTRIES,BWA,Botswana,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,93.0,AFR,2 doses (6 months),School-based,34.0,,Non-Gavi
+COUNTRIES,BRA,Brazil,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1407147.0,1112787.0,79.0,AMR,1 dose,Facility-based,79.0,,Non-Gavi
+COUNTRIES,BRN,Brunei,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,3056.0,2823.0,92.0,WPR,2 doses (6 months),mixed,88.0,,Non-Gavi
+COUNTRIES,BGR,Bulgaria,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,33704.0,3745.0,11.0,EUR,2 doses (6 months),Facility-based,9.0,,Non-Gavi
+COUNTRIES,BFA,Burkina Faso,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,335340.0,345592.0,99.0,AFR,1 dose,School-based,99.0,Initial self-financing,Gavi
+COUNTRIES,CPV,Cabo Verde,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,4765.0,4979.0,99.0,AFR,1 dose,,99.0,mic_never_gavi,Non-Gavi
+COUNTRIES,KHM,Cambodia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,169639.0,144310.0,85.0,WPR,1 dose,,85.0,Preparatory transition phase,Gavi
+COUNTRIES,CMR,Cameroon,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,379781.0,138515.0,36.0,AFR,1 dose,School-based,36.0,Preparatory transition phase,Gavi
+COUNTRIES,CAN,Canada,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,86.0,AMR,1 dose,School-based,86.0,,Non-Gavi
+COUNTRIES,CHL,Chile,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,121322.0,113705.0,94.0,AMR,1 dose,School-based,87.0,,Non-Gavi
+COUNTRIES,COL,Colombia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,346938.0,208686.0,60.0,AMR,1 dose,School-based,60.0,,Non-Gavi
+COUNTRIES,COK,Cook Islands,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,113.0,87.0,77.0,WPR,2 doses (6 months),School-based,37.0,,Non-Gavi
+COUNTRIES,CRI,Costa Rica,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,35074.0,32423.0,92.0,AMR,2 doses (6 months),School-based,84.0,,Non-Gavi
+COUNTRIES,CIV,Ivory Coast,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,616683.0,374731.0,61.0,AFR,1 dose,School-based,61.0,Accelerated transition phase,Gavi
+COUNTRIES,HRV,Croatia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,20675.0,10874.0,53.0,EUR,2 doses (6 months),School-based,53.0,,Non-Gavi
+COUNTRIES,CYP,Cyprus,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,4887.0,4063.0,83.0,EUR,2 doses (6 months),School-based,89.0,,Non-Gavi
+COUNTRIES,CZE,Czech Republic,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,55791.0,41970.0,75.0,EUR,2 doses (6 months),Facility-based,75.0,,Non-Gavi
+COUNTRIES,DNK,Denmark,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,31221.0,27937.0,89.0,EUR,2 doses (6 months),Facility-based,81.0,,Non-Gavi
+COUNTRIES,DMA,Dominica,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,431.0,331.0,77.0,AMR,1 dose,School-based,77.0,mic_never_gavi,Non-Gavi
+COUNTRIES,DOM,Dominican Republic,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,100037.0,45004.0,45.0,AMR,1 dose,Facility-based,45.0,,Non-Gavi
+COUNTRIES,ECU,Ecuador,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,156237.0,139611.0,89.0,AMR,1 dose,School-based,89.0,,Non-Gavi
+COUNTRIES,SLV,El Salvador,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,71093.0,60894.0,86.0,AMR,1 dose,School-based,86.0,mic_never_gavi,Non-Gavi
+COUNTRIES,ERI,Eritrea,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,49348.0,33387.0,68.0,AFR,2 doses (6 months),,49.0,Initial self-financing,Gavi
+COUNTRIES,EST,Estonia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,63.0,EUR,1 dose,School-based,63.0,,Non-Gavi
+COUNTRIES,SWZ,Eswatini,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,37104.0,11233.0,30.0,AFR,1 dose,School-based,30.0,mic_never_gavi,Non-Gavi
+COUNTRIES,ETH,Ethiopia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,9051552.0,5249900.0,58.0,AFR,1 dose,School-based,58.0,Initial self-financing,Gavi
+COUNTRIES,FJI,Fiji,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,8319.0,7432.0,89.0,WPR,2 doses (6 months),School-based,71.0,mic_never_gavi,Non-Gavi
+COUNTRIES,FIN,Finland,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,71.0,EUR,2 doses (6 months),School-based,62.0,,Non-Gavi
+COUNTRIES,FRA,France,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,48.0,EUR,2 doses (6 months),Facility-based,45.0,,Non-Gavi
+COUNTRIES,GMB,Gambia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,160814.0,23527.0,15.0,AFR,1 dose,School-based,15.0,Initial self-financing,Gavi
+COUNTRIES,GEO,Georgia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,27939.0,9053.0,32.0,EUR,2 doses (6 months),Facility-based,29.0,mic_former_gavi,Non-Gavi
+COUNTRIES,DEU,Germany,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,68.0,EUR,2 doses (6 months),Facility-based,55.0,,Non-Gavi
+COUNTRIES,GRC,Greece,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,,EUR,2 doses (6 months),Facility-based,,,Non-Gavi
+COUNTRIES,GRD,Grenada,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,778.0,38.0,5.0,AMR,1 dose,School-based,5.0,mic_never_gavi,Non-Gavi
+COUNTRIES,GTM,Guatemala,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,195590.0,110707.0,57.0,AMR,1 dose,School-based,57.0,,Non-Gavi
+COUNTRIES,GUY,Guyana,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,26178.0,18567.0,71.0,AMR,1 dose,School-based,71.0,mic_former_gavi,Non-Gavi
+COUNTRIES,HND,Honduras,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,104710.0,75524.0,72.0,AMR,1 dose,School-based,72.0,mic_former_gavi,Non-Gavi
+COUNTRIES,HUN,Hungary,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,44275.0,34082.0,77.0,EUR,2 doses (6 months),School-based,75.0,,Non-Gavi
+COUNTRIES,ISL,Iceland,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,93.0,EUR,2 doses (6 months),School-based,89.0,,Non-Gavi
+COUNTRIES,IDN,Indonesia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,2397151.0,1925570.0,80.0,WPR,1 dose,School-based,79.0,mic_former_gavi,Non-Gavi
+COUNTRIES,IRL,Ireland,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,35666.0,26148.0,73.0,EUR,1 dose,School-based,73.0,,Non-Gavi
+COUNTRIES,ISR,Israel,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,51.0,EUR,2 doses (6 months),School-based,58.0,,Non-Gavi
+COUNTRIES,ISR,Israel,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,51.0,EMR,2 doses (6 months),School-based,58.0,,Non-Gavi
+COUNTRIES,ITA,Italy,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,261095.0,173410.0,66.0,EUR,2 doses (6 months),Varies by region/province,51.0,,Non-Gavi
+COUNTRIES,JAM,Jamaica,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,19026.0,1401.0,7.0,AMR,1 dose,School-based,7.0,,Non-Gavi
+COUNTRIES,JPN,Japan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,525678.0,202908.0,39.0,WPR,2 doses (6 months),Facility-based,17.0,,Non-Gavi
+COUNTRIES,KAZ,Kazakhstan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,190228.0,72380.0,38.0,EUR,2 doses (6 months),School-based,,,Non-Gavi
+COUNTRIES,KEN,Kenya,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1444531.0,1134120.0,79.0,AFR,1 dose,Facility-based,36.0,Accelerated transition phase,Gavi
+COUNTRIES,KIR,Kiribati,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1498.0,1068.0,71.0,WPR,1 dose,,71.0,mic_former_gavi,Non-Gavi
+COUNTRIES,KWT,Kuwait,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,,EMR,2 doses (6 months),School-based,,,Non-Gavi
+COUNTRIES,KGZ,Kyrgyzstan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,73264.0,64798.0,88.0,EUR,1 dose,School-based,88.0,Preparatory transition phase,Gavi
+COUNTRIES,LAO,Laos,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,129684.0,122798.0,95.0,WPR,1 dose,School-based,95.0,Accelerated transition phase,Gavi
+COUNTRIES,LVA,Latvia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,9395.0,6020.0,64.0,EUR,2 doses (6 months),Facility-based,51.0,,Non-Gavi
+COUNTRIES,LSO,Lesotho,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,22942.0,16059.0,70.0,AFR,2 doses (6 months),,70.0,Preparatory transition phase,Gavi
+COUNTRIES,LBR,Liberia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,71033.0,50101.0,71.0,AFR,1 dose,mixed,71.0,Initial self-financing,Gavi
+COUNTRIES,LBY,Libya,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,123811.0,62815.0,51.0,EMR,,,28.0,,Non-Gavi
+COUNTRIES,LTU,Lithuania,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,14373.0,8262.0,57.0,EUR,2 doses (6 months),Facility-based,59.0,,Non-Gavi
+COUNTRIES,LUX,Luxembourg,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,87.0,EUR,2 doses (6 months),Facility-based,79.0,,Non-Gavi
+COUNTRIES,MWI,Malawi,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,965874.0,519189.0,54.0,AFR,1 dose,School-based,21.0,Initial self-financing,Gavi
+COUNTRIES,MYS,Malaysia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,264127.0,206647.0,78.0,WPR,1 dose,School-based,78.0,,Non-Gavi
+COUNTRIES,MDV,Maldives,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,3494.0,2616.0,75.0,SEAR,1 dose,School-based,55.0,mic_never_gavi,Non-Gavi
+COUNTRIES,MLI,Mali,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,343798.0,50563.0,15.0,AFR,1 dose,mixed,15.0,Initial self-financing,Gavi
+COUNTRIES,MLT,Malta,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,2361.0,2037.0,86.0,EUR,2 doses (6 months),Facility-based,80.0,,Non-Gavi
+COUNTRIES,MHL,Marshall Islands,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,486.0,338.0,70.0,WPR,2 doses (6 months),mixed,50.0,mic_never_gavi,Non-Gavi
+COUNTRIES,MRT,Mauritania,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,126351.0,64894.0,51.0,AFR,1 dose,mixed,51.0,Preparatory transition phase,Gavi
+COUNTRIES,MUS,Mauritius,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,7400.0,6784.0,92.0,AFR,2 doses (6 months),School-based,92.0,,Non-Gavi
+COUNTRIES,MEX,Mexico,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1110733.0,906764.0,82.0,AMR,1 dose,School-based,82.0,,Non-Gavi
+COUNTRIES,FSM,Micronesia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,3393.0,2375.0,70.0,WPR,2 doses (6 months),School-based,40.0,mic_never_gavi,Non-Gavi
+COUNTRIES,MCO,Monaco,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,16.0,EUR,2 doses (6 months),Facility-based,,,Non-Gavi
+COUNTRIES,MNG,Mongolia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,38526.0,9651.0,25.0,WPR,1 dose,School-based,25.0,mic_former_gavi,Non-Gavi
+COUNTRIES,MNE,Montenegro,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,19199.0,984.0,5.0,EUR,1 dose,Facility-based,5.0,,Non-Gavi
+COUNTRIES,MAR,Morocco,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,324890.0,9267.0,3.0,EMR,1 dose,,3.0,mic_never_gavi,Non-Gavi
+COUNTRIES,MOZ,Mozambique,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,689327.0,615889.0,89.0,AFR,1 dose,School-based,89.0,Initial self-financing,Gavi
+COUNTRIES,MMR,Myanmar,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,431205.0,359591.0,83.0,SEAR,1 dose,School-based,83.0,Preparatory transition phase,Gavi
+COUNTRIES,NRU,Nauru,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,594.0,139.0,23.0,WPR,2 doses (6 months),,6.0,,Non-Gavi
+COUNTRIES,NLD,Netherlands,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,63.0,EUR,2 doses (6 months),Facility-based,63.0,,Non-Gavi
+COUNTRIES,NZL,New Zealand,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,32781.0,17324.0,53.0,WPR,2 doses (6 months),mixed,52.0,,Non-Gavi
+COUNTRIES,NGA,Nigeria,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,13916556.0,8290701.0,60.0,AFR,1 dose,mixed,60.0,Accelerated transition phase,Gavi
+COUNTRIES,NIU,Niue,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,99.0,WPR,2 doses (6 months),School-based,99.0,,Non-Gavi
+COUNTRIES,MKD,North Macedonia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,10604.0,6165.0,58.0,EUR,2 doses (6 months),School-based,40.0,,Non-Gavi
+COUNTRIES,NOR,Norway,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,31651.0,29551.0,93.0,EUR,2 doses (6 months),School-based,91.0,,Non-Gavi
+COUNTRIES,PLW,Palau,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,58.0,WPR,2 doses (6 months),School-based,43.0,,Non-Gavi
+COUNTRIES,PAN,Panama,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,37824.0,26943.0,71.0,AMR,2 doses (6 months),mixed,54.0,,Non-Gavi
+COUNTRIES,PRY,Paraguay,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,63655.0,29919.0,47.0,AMR,1 dose,mixed,47.0,,Non-Gavi
+COUNTRIES,PER,Peru,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,270862.0,262585.0,97.0,AMR,1 dose,School-based,97.0,,Non-Gavi
+COUNTRIES,PHL,Philippines,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1123627.0,566106.0,50.0,WPR,2 doses (6 months),School-based,5.0,mic_never_gavi,Non-Gavi
+COUNTRIES,POL,Poland,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1103745.0,114054.0,10.0,EUR,2 doses (6 months),Facility-based,13.0,,Non-Gavi
+COUNTRIES,PRT,Portugal,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,42979.0,39033.0,91.0,EUR,2 doses (6 months),Facility-based,92.0,,Non-Gavi
+COUNTRIES,QAT,Qatar,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,12758.0,455.0,4.0,EMR,2 doses (6 months),,1.0,,Non-Gavi
+COUNTRIES,KOR,South Korea,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,226523.0,191693.0,85.0,WPR,2 doses (6 months),Facility-based,69.0,,Non-Gavi
+COUNTRIES,MDA,Moldova,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,22418.0,11640.0,52.0,EUR,2 doses (6 months),School-based,42.0,mic_former_gavi,Non-Gavi
+COUNTRIES,ROU,Romania,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,107282.0,18791.0,18.0,EUR,2 doses (6 months),Facility-based,17.0,,Non-Gavi
+COUNTRIES,RUS,Russia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,Not yet introduced,,,,Non-Gavi
+COUNTRIES,RWA,Rwanda,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,162876.0,125325.0,77.0,AFR,1 dose,School-based,69.0,Initial self-financing,Gavi
+COUNTRIES,KNA,Saint Kitts and Nevis,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,268.0,208.0,78.0,AMR,1 dose,School-based,78.0,,Non-Gavi
+COUNTRIES,LCA,Saint Lucia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1042.0,741.0,71.0,AMR,1 dose,School-based,71.0,mic_never_gavi,Non-Gavi
+COUNTRIES,VCT,Saint Vincent and the Grenadines,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,792.0,66.0,8.0,AMR,1 dose,School-based,8.0,mic_never_gavi,Non-Gavi
+COUNTRIES,WSM,Samoa,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,10824.0,6875.0,64.0,WPR,1 dose,School-based,64.0,mic_never_gavi,Non-Gavi
+COUNTRIES,SMR,San Marino,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,62.0,EUR,2 doses (6 months),Facility-based,56.0,,Non-Gavi
+COUNTRIES,STP,São Tomé and Príncipe,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,2995.0,2248.0,75.0,AFR,1 dose,,75.0,Accelerated transition phase,Gavi
+COUNTRIES,SAU,Saudi Arabia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,267428.0,133083.0,50.0,EMR,2 doses (12 months),School-based,,,Non-Gavi
+COUNTRIES,SEN,Senegal,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,218296.0,145157.0,66.0,AFR,2 doses (6 months),Facility-based,51.0,Preparatory transition phase,Gavi
+COUNTRIES,SRB,Serbia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,189448.0,6821.0,4.0,EUR,2 doses (6 months),,4.0,,Non-Gavi
+COUNTRIES,SYC,Seychelles,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,829.0,588.0,71.0,AFR,2 doses (6 months),School-based,23.0,,Non-Gavi
+COUNTRIES,SLE,Sierra Leone,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,208562.0,127223.0,61.0,AFR,1 dose,,61.0,Initial self-financing,Gavi
+COUNTRIES,SGP,Singapore,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,21210.0,16512.0,78.0,WPR,2 doses (6 months),School-based,70.0,,Non-Gavi
+COUNTRIES,SVK,Slovakia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,29859.0,10890.0,36.0,EUR,2 doses (6 months),,24.0,,Non-Gavi
+COUNTRIES,SVN,Slovenia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,43.0,EUR,2 doses (6 months),School-based,43.0,,Non-Gavi
+COUNTRIES,SLB,Solomon Islands,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,9820.0,7638.0,78.0,WPR,1 dose,mixed,78.0,Accelerated transition phase,Gavi
+COUNTRIES,ZAF,South Africa,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,512080.0,405299.0,79.0,AFR,1 dose,School-based,79.0,,Non-Gavi
+COUNTRIES,ESP,Spain,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,90.0,EUR,1 dose,mixed,90.0,,Non-Gavi
+COUNTRIES,LKA,Sri Lanka,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,335099.0,160511.0,48.0,SEAR,2 doses (6 months),mixed,12.0,mic_former_gavi,Non-Gavi
+COUNTRIES,SUR,Suriname,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,5443.0,713.0,13.0,AMR,1 dose,School-based,13.0,mic_never_gavi,Non-Gavi
+COUNTRIES,SWE,Sweden,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,91.0,EUR,2 doses (6 months),School-based,87.0,,Non-Gavi
+COUNTRIES,CHE,Switzerland,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,78.0,EUR,2 doses (6 months),mixed,70.0,,Non-Gavi
+COUNTRIES,TJK,Tajikistan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,1 dose,School-based,,Preparatory transition phase,Gavi
+COUNTRIES,THA,Thailand,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,510074.0,289727.0,57.0,SEAR,1 dose,School-based,36.0,,Non-Gavi
+COUNTRIES,TLS,Timor-Leste,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,61374.0,61820.0,99.0,SEAR,1 dose,School-based,99.0,Fully self-financing,Non-Gavi
+COUNTRIES,TGO,Togo,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,119083.0,42724.0,36.0,AFR,1 dose,School-based,36.0,Initial self-financing,Gavi
+COUNTRIES,TON,Tonga,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,4306.0,2889.0,67.0,WPR,1 dose,,67.0,mic_never_gavi,Non-Gavi
+COUNTRIES,TTO,Trinidad and Tobago,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,9272.0,3535.0,38.0,AMR,2 doses (6 months),mixed,16.0,,Non-Gavi
+COUNTRIES,TUR,Turkey,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,Not yet introduced,,,,Non-Gavi
+COUNTRIES,TKM,Turkmenistan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,80088.0,77913.0,97.0,EUR,1 dose,mixed,99.0,,Non-Gavi
+COUNTRIES,TUV,Tuvalu,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,105.0,74.0,70.0,WPR,1 dose,,70.0,mic_never_gavi,Non-Gavi
+COUNTRIES,UGA,Uganda,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,1331840.0,1266393.0,95.0,AFR,1 dose,School-based,95.0,Initial self-financing,Gavi
+COUNTRIES,UKR,Ukraine,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,0.0,EUR,Not yet introduced,,,mic_former_gavi,Non-Gavi
+COUNTRIES,ARE,United Arab Emirates,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,54140.0,27720.0,51.0,EMR,2 doses (6 months),School-based,46.0,,Non-Gavi
+COUNTRIES,GBR,United Kingdom,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,406809.0,305492.0,75.0,EUR,1 dose,School-based,75.0,,Non-Gavi
+COUNTRIES,TZA,Tanzania,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,5845290.0,5478116.0,94.0,AFR,1 dose,mixed,94.0,Preparatory transition phase,Gavi
+COUNTRIES,USA,the United States of America,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,,,74.0,AMR,1 dose,Facility-based,52.0,,Non-Gavi
+COUNTRIES,URY,Uruguay,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,22538.0,17261.0,77.0,AMR,2 doses (6 months),Facility-based,54.0,,Non-Gavi
+COUNTRIES,UZB,Uzbekistan,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,370761.0,339114.0,91.0,EUR,1 dose,School-based,99.0,mic_former_gavi,Non-Gavi
+COUNTRIES,VUT,Vanuatu,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,19076.0,8198.0,43.0,WPR,1 dose,School-based,43.0,mic_never_gavi,Non-Gavi
+COUNTRIES,ZMB,Zambia,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,283312.0,170435.0,60.0,AFR,1 dose,School-based,60.0,Preparatory transition phase,Gavi
+COUNTRIES,ZWE,Zimbabwe,2024.0,PRHPV1_F,"HPV Vaccination program coverage, first dose, females",HPV,HPV Estimates,228192.0,183148.0,80.0,AFR,1 dose,mixed,51.0,Preparatory transition phase,Gavi

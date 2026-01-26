@@ -18,7 +18,8 @@ SCRIPTS = [
     CLEANING_SCRIPTS_DIR / "gavi_and_gavi_mic_country.py",
     CLEANING_SCRIPTS_DIR / "market_segment_gavi_vax_price.py",
     CLEANING_SCRIPTS_DIR / "combine_cleaned_data.py",
-    CLEANING_SCRIPTS_DIR / "coverage.py",
+    # CLEANING_SCRIPTS_DIR / "coverage.py",
+    CLEANING_SCRIPTS_DIR / "coverage_2024.py",
 ]
 
 def run_one(script_path: str) -> None:
