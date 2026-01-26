@@ -23,6 +23,8 @@ INTERM_PATH = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/merged_coverage.xlsx
 FINAL_BOOK = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
 SOURCE_SHEET = "hpv_vax_2024"
 FINAL_SHEET = "coverage_2024"
+GAVI_SHEET = "gavi_mktseg_vaxprice_2024"
+GAVI_INCOME_COL = "income_class"
 WHO_VAX_PATH = PROJECT_ROOT / "dat/Bio_surface/who_vax_country.tsv"
 WHO_VAX_YEAR = 2024
 WHO_VAX_DOSE = "last dose"
@@ -121,10 +123,19 @@ def build_coverage_sheet(
 
     df_base = pd.read_excel(final_book, sheet_name=source_sheet, engine="openpyxl")
     # df_base = df_base[[c for c in df_base.columns if c not in ADD_COLS + [WHO_COV_COL]]]
-    drop_cols = ADD_COLS + [WHO_COV_COL, "first_d_cov", "last_d_cov"]
+    drop_cols = ADD_COLS + [WHO_COV_COL, FIRST_DOSE_COL, GAVI_INCOME_COL, "first_d_cov", "last_d_cov"]
     df_base = df_base[[c for c in df_base.columns if c not in drop_cols]]
 
     df_out = df_base.merge(df_cov, on="country_code", how="left")
+    df_gavi = pd.read_excel(final_book, sheet_name=GAVI_SHEET, engine="openpyxl")
+    if "country_code" not in df_gavi.columns and "ISO_3_CODE" in df_gavi.columns:
+        df_gavi = df_gavi.rename(columns={"ISO_3_CODE": "country_code"})
+    if "country_code" not in df_gavi.columns:
+        raise ValueError("Expected country_code or ISO_3_CODE in gavi_mktseg_vaxprice_2024.")
+    if GAVI_INCOME_COL not in df_gavi.columns:
+        raise ValueError(f"Expected column {GAVI_INCOME_COL} in gavi_mktseg_vaxprice_2024.")
+    df_gavi = df_gavi[["country_code", GAVI_INCOME_COL]]
+    df_out = df_out.merge(df_gavi, on="country_code", how="left")
 
     wb = load_workbook(final_book)
     if final_sheet in wb.sheetnames:
