@@ -8,18 +8,12 @@ import sys
 import subprocess
 from pathlib import Path
 
-# Get project root (2 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-CLEANING_SCRIPTS_DIR = PROJECT_ROOT / "src/data_cleaning/cleaning_scripts"
-
 SCRIPTS = [
-    CLEANING_SCRIPTS_DIR / "clean_who_vax_cov_first_last_15f.py",
-    CLEANING_SCRIPTS_DIR / "wb_income_class_cleaning.py",
-    CLEANING_SCRIPTS_DIR / "gavi_and_gavi_mic_country.py",
-    CLEANING_SCRIPTS_DIR / "market_segment_gavi_vax_price.py",
-    CLEANING_SCRIPTS_DIR / "combine_cleaned_data.py",
-    # CLEANING_SCRIPTS_DIR / "coverage.py",
-    CLEANING_SCRIPTS_DIR / "coverage_2024.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/clean_who_vax_cov_first_last_15f.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/wb_income_class_cleaning.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/gavi_and_gavi_mic_country.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/market_segment_gavi_vax_price.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_cleaned_data.py",
 ]
 
 def run_one(script_path: str) -> None:
@@ -48,15 +42,15 @@ def run_one(script_path: str) -> None:
 
     # Hard fail on error
     if result.returncode != 0:
-        raise RuntimeError(f"Script failed ({p.name}) with exit code {result.returncode}")
+        raise RuntimeError(f"❌ Script failed ({p.name}) with exit code {result.returncode}")
 
-    print(f"DONE: {p.name}")
+    print(f"✅ DONE: {p.name}")
 
 def main():
     print("Starting full cleaning pipeline...\n")
     for s in SCRIPTS:
         run_one(s)
-    print("\nAll cleaning scripts finished successfully.")
+    print("\n🎉 All cleaning scripts finished successfully.")
 
 if __name__ == "__main__":
     main()
