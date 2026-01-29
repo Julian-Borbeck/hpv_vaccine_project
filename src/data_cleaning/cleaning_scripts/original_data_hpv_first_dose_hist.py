@@ -4,7 +4,7 @@ import pandas as pd
 # Paths
 # --------------------------------------------------
 INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/coverage_cleaned.xlsx"
-OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/coverage_cleaned_minimal.xlsx"
+OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/final_data_hpv_first_dose_hist.xlsx"
 
 # --------------------------------------------------
 # Load
