@@ -1,18 +1,14 @@
 import pandas as pd
-from pathlib import Path
 #RUN FIRST
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-
-FIRST_FILE = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/who_hpv_vax_first_15f.xlsx"
-LAST_FILE  = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/who_hpv_vax_last_15f.xlsx"
+FIRST_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/who_hpv_vax_first_15f.xlsx"
+LAST_FILE  = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/who_hpv_vax_last_15f.xlsx"
 
 # intermediate output
-OUTPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/who_hpv_vax_15f_first_last_clean.xlsx"
+OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/who_hpv_vax_15f_first_last_clean.xlsx"
 
 # NEW: final 2024-only output
-FINAL_2024_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
+FINAL_2024_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
 FINAL_2024_SHEET = "hpv_vax_2024"
 
 # -----------------------------
@@ -257,7 +253,7 @@ for year in range(START_YEAR, END_YEAR + 1):
 # Save summary table
 results_df = pd.DataFrame(results)
 
-SUMMARY_OUT = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/hpv_first_last_yearly_tests_2015_2024.xlsx"
+SUMMARY_OUT = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/hpv_first_last_yearly_tests_2015_2024.xlsx"
 results_df.to_excel(SUMMARY_OUT, index=False)
 
 print("\nSaved year-by-year test summary to:")

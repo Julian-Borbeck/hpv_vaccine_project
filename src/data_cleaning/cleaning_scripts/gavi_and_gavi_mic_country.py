@@ -1,40 +1,40 @@
 import pandas as pd
 from openpyxl import load_workbook
-from pathlib import Path
+import pdfplumber
+import pandas as pd
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PDF_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/gavi_eligibility_country.pdf"
+OUT_EXCEL = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/gavi_eligibility_country.xlsx"
 
-# PDF_FILE = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/gavi_eligibility_country.pdf"
-# OUT_EXCEL = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/gavi_eligibility_country.xlsx"
+rows = []
 
-# NOTE: PDF extraction code commented out as intermediate file already exists
-# If you need to re-extract from PDF, install pdfplumber and uncomment below:
-#
-# import pdfplumber
-# rows = []
-# with pdfplumber.open(PDF_FILE) as pdf:
-#     for page in pdf.pages:
-#         tables = page.extract_tables()
-#         for table in tables:
-#             for row in table:
-#                 rows.append(row)
-# df = pd.DataFrame(rows, columns=["country", "year", "gavi_eligibility_group"])
-# df = df.dropna(subset=["country", "year"])
-# df["year"] = pd.to_numeric(df["year"], errors="coerce")
-# df.to_excel(OUT_EXCEL, index=False)
-# print("Saved:", OUT_EXCEL)
-# print(df.head())
+with pdfplumber.open(PDF_FILE) as pdf:
+    for page in pdf.pages:
+        tables = page.extract_tables()
+        for table in tables:
+            for row in table:
+                rows.append(row)
+
+df = pd.DataFrame(rows, columns=["country", "year", "gavi_eligibility_group"])
+
+# Clean
+df = df.dropna(subset=["country", "year"])
+df["year"] = pd.to_numeric(df["year"], errors="coerce")
+
+df.to_excel(OUT_EXCEL, index=False)
+
+print("Saved:", OUT_EXCEL)
+print(df.head())
 
 # --------------------------------------------------
 # INPUT / OUTPUT
 # --------------------------------------------------
-INPUT_1 = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/gavi_eligibility_country.xlsx"
+INPUT_1 = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/gavi_eligibility_country.xlsx"
 SHEET_1 = "Table 1"
 
-INPUT_2 = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/gavi_mic_countries.xlsx"
+INPUT_2 = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/gavi_mic_countries.xlsx"
 
-OUTPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/gavi_eligibility_country_wide.xlsx"
+OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/gavi_eligibility_country_wide.xlsx"
 
 MIC_FILL_START_YEAR = 2022
 MIC_FILL_END_YEAR   = 2025
@@ -193,7 +193,7 @@ print(df_mic_after.to_string(index=False))
 # Create sheet "gavi_country_2024" with country_code + country_name + gavi_2024
 # Prefill some country_code, then map remaining via income_class_2024, then hpv_vax_2024
 # --------------------------------------------------
-FINAL_FILE  = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
+FINAL_FILE  = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
 FINAL_SHEET = "gavi_country_2024"
 
 SHEET_INC = "income_class_2024"

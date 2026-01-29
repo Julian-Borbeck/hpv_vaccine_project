@@ -1,10 +1,6 @@
 import pandas as pd
-from pathlib import Path
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-
-INPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
+INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
 NEW_SHEET  = "gavi_mktseg_vaxprice_2024"
 
 SHEET_VAX  = "hpv_vax_2024"
@@ -90,9 +86,9 @@ def prep_country_names(df: pd.DataFrame, name_col_new: str, sheet_label: str) ->
     dup = out[out.duplicated(subset=["country_code"], keep=False)]
     print(f"\n=== Duplicate country_code check: {sheet_label} ===")
     if dup.empty:
-        print("No duplicates")
+        print("No duplicates ✅")
     else:
-        print(f"Found {dup['country_code'].nunique()} duplicated country_code(s)")
+        print(f"Found {dup['country_code'].nunique()} duplicated country_code(s) ❌")
         print(dup.sort_values("country_code").to_string(index=False))
 
     out = out.dropna(subset=["country_code"])
@@ -132,9 +128,9 @@ def prep_income_with_class(df: pd.DataFrame, sheet_label: str) -> pd.DataFrame:
     dup = out[out.duplicated(subset=["country_code"], keep=False)]
     print(f"\n=== Duplicate country_code check: {sheet_label} ===")
     if dup.empty:
-        print("No duplicates")
+        print("No duplicates ✅")
     else:
-        print(f"Found {dup['country_code'].nunique()} duplicated country_code(s)")
+        print(f"Found {dup['country_code'].nunique()} duplicated country_code(s) ❌")
         print(dup.sort_values("country_code").to_string(index=False))
 
     out = out.dropna(subset=["country_code"])
@@ -181,9 +177,9 @@ combo = combo[[
 dup_out = combo[combo.duplicated(subset=["country_code"], keep=False)]
 print("\n=== Duplicate country_code check: merged combo ===")
 if dup_out.empty:
-    print("No duplicates after merge")
+    print("No duplicates after merge ✅")
 else:
-    print("Duplicate country_code found after merge!")
+    print("❌ Duplicate country_code found after merge!")
     print(dup_out.sort_values("country_code").to_string(index=False))
 
 # -----------------------------
@@ -251,5 +247,5 @@ print(combo.loc[combo["vax_price_2024"].isna(), "vax_market_segment"].value_coun
 with pd.ExcelWriter(INPUT_FILE, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
     combo.to_excel(writer, sheet_name=NEW_SHEET, index=False)
 
-print(f"\nAdded/updated sheet '{NEW_SHEET}' in: {INPUT_FILE}")
+print(f"\n✅ Added/updated sheet '{NEW_SHEET}' in: {INPUT_FILE}")
 print("Rows written:", len(combo))

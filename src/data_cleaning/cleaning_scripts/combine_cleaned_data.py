@@ -1,14 +1,10 @@
 import pandas as pd
-from pathlib import Path
 
 # =============================
 # INPUT / OUTPUT
 # =============================
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-
-INPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
-OUTPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_pro_final_dataset_country_analysis.xlsx"
+INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
+OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_pro_final_dataset_country_analysis.xlsx"
 
 BASE_SHEET = "gavi_mktseg_vaxprice_2024"
 SHEET_VAX  = "hpv_vax_2024"
@@ -34,9 +30,9 @@ def print_dups(df, label):
     d = df[df.duplicated("country_code", keep=False)]
     print(f"\n=== Duplicate country_code check: {label} ===")
     if d.empty:
-        print("No duplicates")
+        print("No duplicates ✅")
     else:
-        print(f"Found {d['country_code'].nunique()} duplicated country_code(s)")
+        print(f"Found {d['country_code'].nunique()} duplicated country_code(s) ❌")
         print(d.sort_values("country_code").to_string(index=False))
 
 print_dups(base, BASE_SHEET)
@@ -102,6 +98,6 @@ df = df.sort_values(
 with pd.ExcelWriter(OUTPUT_FILE, engine="openpyxl") as writer:
     df.to_excel(writer, sheet_name=OUT_SHEET, index=False)
 
-print(f"\nSaved new file: {OUTPUT_FILE}")
-print(f"Sheet created: {OUT_SHEET}")
+print(f"\n✅ Saved new file: {OUTPUT_FILE}")
+print(f"✅ Sheet created: {OUT_SHEET}")
 print("Rows:", len(df))

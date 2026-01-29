@@ -11,18 +11,14 @@ pip install openpyxl pandas
 
 import pandas as pd
 from openpyxl import load_workbook, Workbook
-from pathlib import Path
 
 # ==================================================
 # PATHS
 # ==================================================
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+RAW_INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/00_raw_data/wb_hist_income_country.xlsx"
+INTERM_OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/wb_hist_income_2015_2024_clean.xlsx"
 
-RAW_INPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/00_raw_data/wb_hist_income_country.xlsx"
-INTERM_OUTPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/wb_hist_income_2015_2024_clean.xlsx"
-
-FINAL_BOOK = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
+FINAL_BOOK = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
 FINAL_SHEET = "income_class_2024"
 
 # ==================================================
