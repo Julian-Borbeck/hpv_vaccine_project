@@ -1,11 +1,7 @@
 import pandas as pd
-from pathlib import Path
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-
-INPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1.xlsx"
-OUTPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/02_cleaned_data/dl_project_section_1_country_code_compare.xlsx"
+INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1.xlsx"
+OUTPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/02_cleaned_data/dl_project_section_1_country_code_compare.xlsx"
 
 SHEET_VAX  = "hpv_vax_2024"
 SHEET_INC  = "income_class_2024"

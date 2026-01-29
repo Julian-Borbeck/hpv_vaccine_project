@@ -8,16 +8,20 @@ import sys
 import subprocess
 from pathlib import Path
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-CLEANING_SCRIPTS_DIR = PROJECT_ROOT / "src/data_cleaning/cleaning_scripts"
-
 SCRIPTS = [
-    CLEANING_SCRIPTS_DIR / "clean_who_vax_cov_first_last_15f.py",
-    CLEANING_SCRIPTS_DIR / "wb_income_class_cleaning.py",
-    CLEANING_SCRIPTS_DIR / "gavi_and_gavi_mic_country.py",
-    CLEANING_SCRIPTS_DIR / "market_segment_gavi_vax_price.py",
-    CLEANING_SCRIPTS_DIR / "combine_cleaned_data.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/clean_who_vax_cov_first_last_15f.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/wb_income_class_cleaning.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/gavi_and_gavi_mic_country.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/market_segment_gavi_vax_price.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_cleaned_data.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/final_hist_gavi_countries.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/final_hist_income_countries.py", 
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/final_market_segment_vax_pricing.py", 
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/original_data_hpv_first_dose_hist.py", 
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/clean_meta-data_vax.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_1_historical_data_country.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_2_hist_data_vax_cov.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_3_hist_data_vax_info.py",
 ]
 
 def run_one(script_path: str) -> None:
@@ -46,15 +50,15 @@ def run_one(script_path: str) -> None:
 
     # Hard fail on error
     if result.returncode != 0:
-        raise RuntimeError(f"Script failed ({p.name}) with exit code {result.returncode}")
+        raise RuntimeError(f"❌ Script failed ({p.name}) with exit code {result.returncode}")
 
-    print(f"DONE: {p.name}")
+    print(f"✅ DONE: {p.name}")
 
 def main():
     print("Starting full cleaning pipeline...\n")
     for s in SCRIPTS:
         run_one(s)
-    print("\nAll cleaning scripts finished successfully.")
+    print("\n🎉 All cleaning scripts finished successfully.")
 
 if __name__ == "__main__":
     main()

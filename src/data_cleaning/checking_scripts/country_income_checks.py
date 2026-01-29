@@ -1,10 +1,6 @@
 import pandas as pd
-from pathlib import Path
 
-# Get project root (3 levels up from this script)
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
-
-INPUT_FILE = PROJECT_ROOT / "dat/Socio_Econ/01_interm_data/wb_hist_income_2015_2024_clean.xlsx"
+INPUT_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/wb_hist_income_2015_2024_clean.xlsx"
 
 ALLOWED = {"L", "LM", "UM", "H"}
 RANK = {"L": 1, "LM": 2, "UM": 3, "H": 4}
