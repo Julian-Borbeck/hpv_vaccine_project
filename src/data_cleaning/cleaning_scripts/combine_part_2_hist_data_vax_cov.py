@@ -5,7 +5,7 @@ import pandas as pd
 # --------------------------------------------------
 # Paths
 # --------------------------------------------------
-PANEL_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/final_combined_part1_country.xlsx"
+PANEL_FILE = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/final_combined_part1_country_with_segment.xlsx"
 COV_FILE   = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/coverage_cleaned.xlsx"
 HPV_FILE   = r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/01_interm_data/final_data_hpv_first_dose_hist.xlsx"
 
