@@ -22,6 +22,8 @@ SCRIPTS = [
     r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_1_historical_data_country.py",
     r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_2_hist_data_vax_cov.py",
     r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/combine_part_3_hist_data_vax_info.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/final_cervical_cancer_2022_crude_rate.py",
+    r"/Users/khaira_abdillah/Documents/dl_pro_country_comp/scripts/cleaning_scripts/cleaning_pre_analysis_country.py",
 ]
 
 def run_one(script_path: str) -> None:
