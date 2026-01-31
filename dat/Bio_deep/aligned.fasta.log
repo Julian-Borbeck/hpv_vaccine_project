@@ -1,0 +1,1375 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    julian-linux (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s aligned.fasta -m BLOSUM62 -keep-ident -safe
+Seed:    599745 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jan 24 17:09:59 2026
+Kernel:  Safe AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00774094 secs using 79.07% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00312643 secs using 89.85% CPU
+Alignment has 1047 sequences with 534 columns, 241 distinct patterns
+36 parsimony-informative, 72 singleton sites, 426 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000486082 secs using 99.78% CPU
+   1  QMJ54047.1   15.54%    passed    100.00%
+   2  QMJ53853.1   19.10%    passed     99.96%
+   3  ANY26494.1    0.56%    passed    100.00%
+   4  ANY26485.1    0.75%    passed    100.00%
+   5  ANA05552.1    0.75%    passed    100.00%
+   6  QMJ54267.1    9.18%    passed    100.00%
+   7  QOI17574.1    0.19%    passed    100.00%
+   8  QOI17579.1    0.19%    passed    100.00%
+   9  ASJ77729.1    0.56%    passed    100.00%
+  10  ASJ77721.1    0.56%    passed    100.00%
+  11  ATI13760.1    0.56%    passed    100.00%
+  12  BCZ98993.1    0.56%    passed    100.00%
+  13  BBI18886.1    0.56%    passed    100.00%
+  14  ASJ77881.1    0.56%    passed    100.00%
+  15  ASJ77889.1    0.56%    passed    100.00%
+  16  ASJ77905.1    0.56%    passed    100.00%
+  17  ASJ78305.1    0.56%    passed    100.00%
+  18  ASJ78313.1    0.56%    passed    100.00%
+  19  ASJ78481.1    0.56%    passed    100.00%
+  20  ANA05386.1    0.56%    passed    100.00%
+  21  ANA05429.1    0.56%    passed    100.00%
+  22  ANA05473.1    0.56%    passed    100.00%
+  23  ALB35329.1    0.56%    passed    100.00%
+  24  UTQ11147.1    0.56%    passed    100.00%
+  25  BEU33878.1    0.56%    passed    100.00%
+  26  ANA05403.1    0.56%    passed    100.00%
+  27  ANA05496.1    0.56%    passed    100.00%
+  28  UTQ11146.1    0.56%    passed    100.00%
+  29  AFS33335.1    0.56%    passed    100.00%
+  30  ABQ24218.1    0.56%    passed    100.00%
+  31  AFS33338.1    0.56%    passed    100.00%
+  32  ANA05462.1    0.56%    passed    100.00%
+  33  ANA05370.1    0.56%    passed    100.00%
+  34  ANA05556.1    0.56%    passed    100.00%
+  35  ANY26470.1    0.56%    passed    100.00%
+  36  AFS33340.1    0.56%    passed    100.00%
+  37  ACV53973.1    0.56%    passed    100.00%
+  38  YBL22135.1    0.56%    passed    100.00%
+  39  ASJ77873.1    0.56%    passed    100.00%
+  40  ANA05423.1    0.56%    passed    100.00%
+  41  ANA05495.1    0.56%    passed    100.00%
+  42  ANA05584.1    0.56%    passed    100.00%
+  43  ANA05419.1    0.56%    passed    100.00%
+  44  YBL22151.1    0.56%    passed    100.00%
+  45  BCZ99009.1    0.56%    passed    100.00%
+  46  QGC89586.1    0.56%    passed    100.00%
+  47  BBI16084.1    0.56%    passed    100.00%
+  48  BBI18822.1    0.56%    passed    100.00%
+  49  ATI13768.1    0.56%    passed    100.00%
+  50  ATI13776.1    0.56%    passed    100.00%
+  51  ASJ78729.1    0.56%    passed    100.00%
+  52  ANA05365.1    0.56%    passed    100.00%
+  53  ANA05413.1    0.56%    passed    100.00%
+  54  ANA05596.1    0.56%    passed    100.00%
+  55  ALB35268.1    0.56%    passed    100.00%
+  56  ALB35284.1    0.56%    passed    100.00%
+  57  ALB35300.1    0.56%    passed    100.00%
+  58  ALB35307.1    0.56%    passed    100.00%
+  59  AEZ01721.1    0.56%    passed    100.00%
+  60  ACV84002.1    0.56%    passed    100.00%
+  61  BCZ98835.1    0.56%    passed    100.00%
+  62  ANA05414.1    0.56%    passed    100.00%
+  63  ANA05455.1    0.56%    passed    100.00%
+  64  ANA05555.1    0.56%    passed    100.00%
+  65  BDO24719.1    0.56%    passed    100.00%
+  66  AFS33364.1    0.56%    passed    100.00%
+  67  ANY26493.1    0.56%    passed    100.00%
+  68  ANY26489.1    0.56%    passed    100.00%
+  69  ANY26456.1    0.56%    passed    100.00%
+  70  ANY26486.1    0.56%    passed    100.00%
+  71  BHD12250.1    0.56%    passed    100.00%
+  72  BHD12282.1    0.56%    passed    100.00%
+  73  BHD12290.1    0.56%    passed    100.00%
+  74  BHD12298.1    0.56%    passed    100.00%
+  75  XBO81867.1    0.56%    passed    100.00%
+  76  XBO81868.1    0.56%    passed    100.00%
+  77  XBO81869.1    0.56%    passed    100.00%
+  78  XBO81870.1    0.56%    passed    100.00%
+  79  XBO81872.1    0.56%    passed    100.00%
+  80  XBO81873.1    0.56%    passed    100.00%
+  81  XBO81874.1    0.56%    passed    100.00%
+  82  XBO81875.1    0.56%    passed    100.00%
+  83  XBO81876.1    0.56%    passed    100.00%
+  84  XBO81877.1    0.56%    passed    100.00%
+  85  XBO81878.1    0.56%    passed    100.00%
+  86  XBO81879.1    0.56%    passed    100.00%
+  87  XBO81880.1    0.56%    passed    100.00%
+  88  XBO81882.1    0.56%    passed    100.00%
+  89  XBO81884.1    0.56%    passed    100.00%
+  90  XBO81886.1    0.56%    passed    100.00%
+  91  XBO81888.1    0.56%    passed    100.00%
+  92  XBO81890.1    0.56%    passed    100.00%
+  93  BEU33870.1    0.56%    passed    100.00%
+  94  BEU33894.1    0.56%    passed    100.00%
+  95  BDO24681.1    0.56%    passed    100.00%
+  96  BDO24695.1    0.56%    passed    100.00%
+  97  BDO24703.1    0.56%    passed    100.00%
+  98  BDO24727.1    0.56%    passed    100.00%
+  99  BDO24735.1    0.56%    passed    100.00%
+ 100  BDO24743.1    0.56%    passed    100.00%
+ 101  BDA81703.1    0.56%    passed    100.00%
+ 102  BDA81711.1    0.56%    passed    100.00%
+ 103  BDA81719.1    0.56%    passed    100.00%
+ 104  BDA81735.1    0.56%    passed    100.00%
+ 105  BDA81759.1    0.56%    passed    100.00%
+ 106  BDA81767.1    0.56%    passed    100.00%
+ 107  BDA81775.1    0.56%    passed    100.00%
+ 108  BDA81783.1    0.56%    passed    100.00%
+ 109  BDA81791.1    0.56%    passed    100.00%
+ 110  BDA81799.1    0.56%    passed    100.00%
+ 111  BDA81807.1    0.56%    passed    100.00%
+ 112  BDA81815.1    0.56%    passed    100.00%
+ 113  BDA81823.1    0.56%    passed    100.00%
+ 114  BDA81831.1    0.56%    passed    100.00%
+ 115  BDA81839.1    0.56%    passed    100.00%
+ 116  BCZ98803.1    0.56%    passed    100.00%
+ 117  BCZ98811.1    0.56%    passed    100.00%
+ 118  BCZ98819.1    0.56%    passed    100.00%
+ 119  BCZ98851.1    0.56%    passed    100.00%
+ 120  BCZ98859.1    0.56%    passed    100.00%
+ 121  BCZ98867.1    0.56%    passed    100.00%
+ 122  BCZ98875.1    0.56%    passed    100.00%
+ 123  BCZ98883.1    0.56%    passed    100.00%
+ 124  BCZ98899.1    0.56%    passed    100.00%
+ 125  BCZ98915.1    0.56%    passed    100.00%
+ 126  BCZ98923.1    0.56%    passed    100.00%
+ 127  BCZ98931.1    0.56%    passed    100.00%
+ 128  BCZ98947.1    0.56%    passed    100.00%
+ 129  BCZ98955.1    0.56%    passed    100.00%
+ 130  BCZ98963.1    0.56%    passed    100.00%
+ 131  BCZ98971.1    0.56%    passed    100.00%
+ 132  BCZ98979.1    0.56%    passed    100.00%
+ 133  BCZ99017.1    0.56%    passed    100.00%
+ 134  QPB71770.1    0.56%    passed    100.00%
+ 135  QPB71778.1    0.56%    passed    100.00%
+ 136  QPB71786.1    0.56%    passed    100.00%
+ 137  QPB71794.1    0.56%    passed    100.00%
+ 138  QPB71802.1    0.56%    passed    100.00%
+ 139  QPB71810.1    0.56%    passed    100.00%
+ 140  QPB71818.1    0.56%    passed    100.00%
+ 141  QPB71826.1    0.56%    passed    100.00%
+ 142  BBP42198.1    0.56%    passed    100.00%
+ 143  BBP42214.1    0.56%    passed    100.00%
+ 144  BBP42254.1    0.56%    passed    100.00%
+ 145  QEG53826.1    0.56%    passed    100.00%
+ 146  BBI16004.1    0.56%    passed    100.00%
+ 147  BBI16028.1    0.56%    passed    100.00%
+ 148  BBI16036.1    0.56%    passed    100.00%
+ 149  BBI16044.1    0.56%    passed    100.00%
+ 150  BBI16052.1    0.56%    passed    100.00%
+ 151  BBI16068.1    0.56%    passed    100.00%
+ 152  BBI16092.1    0.56%    passed    100.00%
+ 153  BBI16100.1    0.56%    passed    100.00%
+ 154  BBI16108.1    0.56%    passed    100.00%
+ 155  BBI16116.1    0.56%    passed    100.00%
+ 156  BBI16124.1    0.56%    passed    100.00%
+ 157  BBI16132.1    0.56%    passed    100.00%
+ 158  BBI16140.1    0.56%    passed    100.00%
+ 159  BBI16156.1    0.56%    passed    100.00%
+ 160  BBI16172.1    0.56%    passed    100.00%
+ 161  BBI18734.1    0.56%    passed    100.00%
+ 162  BBI18742.1    0.56%    passed    100.00%
+ 163  BBI18750.1    0.56%    passed    100.00%
+ 164  BBI18758.1    0.56%    passed    100.00%
+ 165  BBI18774.1    0.56%    passed    100.00%
+ 166  BBI18782.1    0.56%    passed    100.00%
+ 167  BBI18790.1    0.56%    passed    100.00%
+ 168  BBI18814.1    0.56%    passed    100.00%
+ 169  BBI18830.1    0.56%    passed    100.00%
+ 170  BBI18838.1    0.56%    passed    100.00%
+ 171  BBI18854.1    0.56%    passed    100.00%
+ 172  BBI18862.1    0.56%    passed    100.00%
+ 173  BBI18870.1    0.56%    passed    100.00%
+ 174  BBI18878.1    0.56%    passed    100.00%
+ 175  BBI18902.1    0.56%    passed    100.00%
+ 176  BBI18910.1    0.56%    passed    100.00%
+ 177  BBI18934.1    0.56%    passed    100.00%
+ 178  BBI18942.1    0.56%    passed    100.00%
+ 179  BBI18950.1    0.56%    passed    100.00%
+ 180  ATI13664.1    0.56%    passed    100.00%
+ 181  ATI13672.1    0.56%    passed    100.00%
+ 182  ATI13680.1    0.56%    passed    100.00%
+ 183  ATI13688.1    0.56%    passed    100.00%
+ 184  ATI13704.1    0.56%    passed    100.00%
+ 185  ATI13712.1    0.56%    passed    100.00%
+ 186  ATI13728.1    0.56%    passed    100.00%
+ 187  ATI13736.1    0.56%    passed    100.00%
+ 188  ATI13744.1    0.56%    passed    100.00%
+ 189  ATI13752.1    0.56%    passed    100.00%
+ 190  ASJ77465.1    0.56%    passed    100.00%
+ 191  ASJ77473.1    0.56%    passed    100.00%
+ 192  ASJ77489.1    0.56%    passed    100.00%
+ 193  ASJ77497.1    0.56%    passed    100.00%
+ 194  ASJ77505.1    0.56%    passed    100.00%
+ 195  ASJ77513.1    0.56%    passed    100.00%
+ 196  ASJ77521.1    0.56%    passed    100.00%
+ 197  ASJ77529.1    0.56%    passed    100.00%
+ 198  ASJ77537.1    0.56%    passed    100.00%
+ 199  ASJ77545.1    0.56%    passed    100.00%
+ 200  ASJ77553.1    0.56%    passed    100.00%
+ 201  ASJ77561.1    0.56%    passed    100.00%
+ 202  ASJ77569.1    0.56%    passed    100.00%
+ 203  ASJ77577.1    0.56%    passed    100.00%
+ 204  ASJ77609.1    0.56%    passed    100.00%
+ 205  ASJ77625.1    0.56%    passed    100.00%
+ 206  ASJ77641.1    0.56%    passed    100.00%
+ 207  ASJ77657.1    0.56%    passed    100.00%
+ 208  ASJ77681.1    0.56%    passed    100.00%
+ 209  ASJ77689.1    0.56%    passed    100.00%
+ 210  ASJ77697.1    0.56%    passed    100.00%
+ 211  ASJ77705.1    0.56%    passed    100.00%
+ 212  ASJ77713.1    0.56%    passed    100.00%
+ 213  ASJ77737.1    0.56%    passed    100.00%
+ 214  ASJ77745.1    0.56%    passed    100.00%
+ 215  ASJ77753.1    0.56%    passed    100.00%
+ 216  ASJ77761.1    0.56%    passed    100.00%
+ 217  ASJ77769.1    0.56%    passed    100.00%
+ 218  ASJ77777.1    0.56%    passed    100.00%
+ 219  ASJ77785.1    0.56%    passed    100.00%
+ 220  ASJ77801.1    0.56%    passed    100.00%
+ 221  ASJ77809.1    0.56%    passed    100.00%
+ 222  ASJ77841.1    0.56%    passed    100.00%
+ 223  ASJ77849.1    0.56%    passed    100.00%
+ 224  ASJ77857.1    0.56%    passed    100.00%
+ 225  ASJ77865.1    0.56%    passed    100.00%
+ 226  ASJ77897.1    0.56%    passed    100.00%
+ 227  ASJ77921.1    0.56%    passed    100.00%
+ 228  ASJ77937.1    0.56%    passed    100.00%
+ 229  ASJ77945.1    0.56%    passed    100.00%
+ 230  ASJ77953.1    0.56%    passed    100.00%
+ 231  ASJ77961.1    0.56%    passed    100.00%
+ 232  ASJ77977.1    0.56%    passed    100.00%
+ 233  ASJ77985.1    0.56%    passed    100.00%
+ 234  ASJ77993.1    0.56%    passed    100.00%
+ 235  ASJ77994.1    0.56%    passed    100.00%
+ 236  ASJ78009.1    0.56%    passed    100.00%
+ 237  ASJ78033.1    0.56%    passed    100.00%
+ 238  ASJ78041.1    0.56%    passed    100.00%
+ 239  ASJ78049.1    0.56%    passed    100.00%
+ 240  ASJ78065.1    0.56%    passed    100.00%
+ 241  ASJ78073.1    0.56%    passed    100.00%
+ 242  ASJ78105.1    0.56%    passed    100.00%
+ 243  ASJ78113.1    0.56%    passed    100.00%
+ 244  ASJ78121.1    0.56%    passed    100.00%
+ 245  ASJ78129.1    0.56%    passed    100.00%
+ 246  ASJ78137.1    0.56%    passed    100.00%
+ 247  ASJ78145.1    0.56%    passed    100.00%
+ 248  ASJ78153.1    0.56%    passed    100.00%
+ 249  ASJ78161.1    0.56%    passed    100.00%
+ 250  ASJ78169.1    0.56%    passed    100.00%
+ 251  ASJ78177.1    0.56%    passed    100.00%
+ 252  ASJ78185.1    0.56%    passed    100.00%
+ 253  ASJ78193.1    0.56%    passed    100.00%
+ 254  ASJ78201.1    0.56%    passed    100.00%
+ 255  ASJ78209.1    0.56%    passed    100.00%
+ 256  ASJ78217.1    0.56%    passed    100.00%
+ 257  ASJ78225.1    0.56%    passed    100.00%
+ 258  ASJ78233.1    0.56%    passed    100.00%
+ 259  ASJ78241.1    0.56%    passed    100.00%
+ 260  ASJ78249.1    0.56%    passed    100.00%
+ 261  ASJ78257.1    0.56%    passed    100.00%
+ 262  ASJ78265.1    0.56%    passed    100.00%
+ 263  ASJ78273.1    0.56%    passed    100.00%
+ 264  ASJ78281.1    0.56%    passed    100.00%
+ 265  ASJ78289.1    0.56%    passed    100.00%
+ 266  ASJ78321.1    0.56%    passed    100.00%
+ 267  ASJ78361.1    0.56%    passed    100.00%
+ 268  ASJ78369.1    0.56%    passed    100.00%
+ 269  ASJ78377.1    0.56%    passed    100.00%
+ 270  ASJ78385.1    0.56%    passed    100.00%
+ 271  ASJ78393.1    0.56%    passed    100.00%
+ 272  ASJ78401.1    0.56%    passed    100.00%
+ 273  ASJ78409.1    0.56%    passed    100.00%
+ 274  ASJ78417.1    0.56%    passed    100.00%
+ 275  ASJ78425.1    0.56%    passed    100.00%
+ 276  ASJ78433.1    0.56%    passed    100.00%
+ 277  ASJ78441.1    0.56%    passed    100.00%
+ 278  ASJ78449.1    0.56%    passed    100.00%
+ 279  ASJ78457.1    0.56%    passed    100.00%
+ 280  ASJ78465.1    0.56%    passed    100.00%
+ 281  ASJ78473.1    0.56%    passed    100.00%
+ 282  ASJ78505.1    0.56%    passed    100.00%
+ 283  ASJ78513.1    0.56%    passed    100.00%
+ 284  ASJ78561.1    0.56%    passed    100.00%
+ 285  ASJ78569.1    0.56%    passed    100.00%
+ 286  ASJ78593.1    0.56%    passed    100.00%
+ 287  ASJ78601.1    0.56%    passed    100.00%
+ 288  ASJ78649.1    0.56%    passed    100.00%
+ 289  ASJ78657.1    0.56%    passed    100.00%
+ 290  ASJ78665.1    0.56%    passed    100.00%
+ 291  ASJ78673.1    0.56%    passed    100.00%
+ 292  ASJ78681.1    0.56%    passed    100.00%
+ 293  ASJ78689.1    0.56%    passed    100.00%
+ 294  ASJ78697.1    0.56%    passed    100.00%
+ 295  ASJ78705.1    0.56%    passed    100.00%
+ 296  ASJ78713.1    0.56%    passed    100.00%
+ 297  ASJ78737.1    0.56%    passed    100.00%
+ 298  ASJ78745.1    0.56%    passed    100.00%
+ 299  ASJ78769.1    0.56%    passed    100.00%
+ 300  ASJ78777.1    0.56%    passed    100.00%
+ 301  ANY26451.1    0.56%    passed    100.00%
+ 302  ANY26452.1    0.56%    passed    100.00%
+ 303  ANY26453.1    0.56%    passed    100.00%
+ 304  ANY26454.1    0.56%    passed    100.00%
+ 305  ANY26455.1    0.56%    passed    100.00%
+ 306  ANY26457.1    0.56%    passed    100.00%
+ 307  ANY26458.1    0.56%    passed    100.00%
+ 308  ANY26459.1    0.56%    passed    100.00%
+ 309  ANY26461.1    0.56%    passed    100.00%
+ 310  ANY26462.1    0.56%    passed    100.00%
+ 311  ANY26463.1    0.56%    passed    100.00%
+ 312  ANY26464.1    0.56%    passed    100.00%
+ 313  ANY26466.1    0.56%    passed    100.00%
+ 314  ANY26468.1    0.56%    passed    100.00%
+ 315  ANY26471.1    0.56%    passed    100.00%
+ 316  ANY26472.1    0.56%    passed    100.00%
+ 317  ANY26473.1    0.56%    passed    100.00%
+ 318  ANY26474.1    0.56%    passed    100.00%
+ 319  ANY26475.1    0.56%    passed    100.00%
+ 320  ANY26476.1    0.56%    passed    100.00%
+ 321  ANY26477.1    0.56%    passed    100.00%
+ 322  ANY26478.1    0.56%    passed    100.00%
+ 323  ANY26479.1    0.56%    passed    100.00%
+ 324  ANY26480.1    0.56%    passed    100.00%
+ 325  ANY26481.1    0.56%    passed    100.00%
+ 326  ANY26482.1    0.56%    passed    100.00%
+ 327  ANY26487.1    0.56%    passed    100.00%
+ 328  ANY26488.1    0.56%    passed    100.00%
+ 329  ANY26490.1    0.56%    passed    100.00%
+ 330  ANY26491.1    0.56%    passed    100.00%
+ 331  ANY26495.1    0.56%    passed    100.00%
+ 332  ANY26496.1    0.56%    passed    100.00%
+ 333  ANY26497.1    0.56%    passed    100.00%
+ 334  ANA05363.1    0.56%    passed    100.00%
+ 335  ANA05366.1    0.56%    passed    100.00%
+ 336  ANA05367.1    0.56%    passed    100.00%
+ 337  ANA05371.1    0.56%    passed    100.00%
+ 338  ANA05372.1    0.56%    passed    100.00%
+ 339  ANA05374.1    0.56%    passed    100.00%
+ 340  ANA05375.1    0.56%    passed    100.00%
+ 341  ANA05376.1    0.56%    passed    100.00%
+ 342  ANA05379.1    0.56%    passed    100.00%
+ 343  ANA05380.1    0.56%    passed    100.00%
+ 344  ANA05381.1    0.56%    passed    100.00%
+ 345  ANA05382.1    0.56%    passed    100.00%
+ 346  ANA05383.1    0.56%    passed    100.00%
+ 347  ANA05388.1    0.56%    passed    100.00%
+ 348  ANA05389.1    0.56%    passed    100.00%
+ 349  ANA05392.1    0.56%    passed    100.00%
+ 350  ANA05394.1    0.56%    passed    100.00%
+ 351  ANA05395.1    0.56%    passed    100.00%
+ 352  ANA05397.1    0.56%    passed    100.00%
+ 353  ANA05401.1    0.56%    passed    100.00%
+ 354  ANA05404.1    0.56%    passed    100.00%
+ 355  ANA05406.1    0.56%    passed    100.00%
+ 356  ANA05407.1    0.56%    passed    100.00%
+ 357  ANA05408.1    0.56%    passed    100.00%
+ 358  ANA05410.1    0.56%    passed    100.00%
+ 359  ANA05411.1    0.56%    passed    100.00%
+ 360  ANA05415.1    0.56%    passed    100.00%
+ 361  ANA05417.1    0.56%    passed    100.00%
+ 362  ANA05420.1    0.56%    passed    100.00%
+ 363  ANA05421.1    0.56%    passed    100.00%
+ 364  ANA05422.1    0.56%    passed    100.00%
+ 365  ANA05424.1    0.56%    passed    100.00%
+ 366  ANA05425.1    0.56%    passed    100.00%
+ 367  ANA05426.1    0.56%    passed    100.00%
+ 368  ANA05427.1    0.56%    passed    100.00%
+ 369  ANA05431.1    0.56%    passed    100.00%
+ 370  ANA05432.1    0.56%    passed    100.00%
+ 371  ANA05433.1    0.56%    passed    100.00%
+ 372  ANA05434.1    0.56%    passed    100.00%
+ 373  ANA05435.1    0.56%    passed    100.00%
+ 374  ANA05438.1    0.56%    passed    100.00%
+ 375  ANA05439.1    0.56%    passed    100.00%
+ 376  ANA05440.1    0.56%    passed    100.00%
+ 377  ANA05441.1    0.56%    passed    100.00%
+ 378  ANA05445.1    0.56%    passed    100.00%
+ 379  ANA05446.1    0.56%    passed    100.00%
+ 380  ANA05449.1    0.56%    passed    100.00%
+ 381  ANA05450.1    0.56%    passed    100.00%
+ 382  ANA05451.1    0.56%    passed    100.00%
+ 383  ANA05452.1    0.56%    passed    100.00%
+ 384  ANA05453.1    0.56%    passed    100.00%
+ 385  ANA05454.1    0.56%    passed    100.00%
+ 386  ANA05456.1    0.56%    passed    100.00%
+ 387  ANA05458.1    0.56%    passed    100.00%
+ 388  ANA05460.1    0.56%    passed    100.00%
+ 389  ANA05461.1    0.56%    passed    100.00%
+ 390  ANA05464.1    0.56%    passed    100.00%
+ 391  ANA05465.1    0.56%    passed    100.00%
+ 392  ANA05467.1    0.56%    passed    100.00%
+ 393  ANA05468.1    0.56%    passed    100.00%
+ 394  ANA05469.1    0.56%    passed    100.00%
+ 395  ANA05470.1    0.56%    passed    100.00%
+ 396  ANA05472.1    0.56%    passed    100.00%
+ 397  ANA05474.1    0.56%    passed    100.00%
+ 398  ANA05476.1    0.56%    passed    100.00%
+ 399  ANA05477.1    0.56%    passed    100.00%
+ 400  ANA05478.1    0.56%    passed    100.00%
+ 401  ANA05479.1    0.56%    passed    100.00%
+ 402  ANA05480.1    0.56%    passed    100.00%
+ 403  ANA05481.1    0.56%    passed    100.00%
+ 404  ANA05483.1    0.56%    passed    100.00%
+ 405  ANA05484.1    0.56%    passed    100.00%
+ 406  ANA05485.1    0.56%    passed    100.00%
+ 407  ANA05486.1    0.56%    passed    100.00%
+ 408  ANA05487.1    0.56%    passed    100.00%
+ 409  ANA05489.1    0.56%    passed    100.00%
+ 410  ANA05491.1    0.56%    passed    100.00%
+ 411  ANA05492.1    0.56%    passed    100.00%
+ 412  ANA05494.1    0.56%    passed    100.00%
+ 413  ANA05497.1    0.56%    passed    100.00%
+ 414  ANA05499.1    0.56%    passed    100.00%
+ 415  ANA05500.1    0.56%    passed    100.00%
+ 416  ANA05501.1    0.56%    passed    100.00%
+ 417  ANA05502.1    0.56%    passed    100.00%
+ 418  ANA05503.1    0.56%    passed    100.00%
+ 419  ANA05504.1    0.56%    passed    100.00%
+ 420  ANA05505.1    0.56%    passed    100.00%
+ 421  ANA05507.1    0.56%    passed    100.00%
+ 422  ANA05509.1    0.56%    passed    100.00%
+ 423  ANA05511.1    0.56%    passed    100.00%
+ 424  ANA05513.1    0.56%    passed    100.00%
+ 425  ANA05515.1    0.56%    passed    100.00%
+ 426  ANA05516.1    0.56%    passed    100.00%
+ 427  ANA05517.1    0.56%    passed    100.00%
+ 428  ANA05519.1    0.56%    passed    100.00%
+ 429  ANA05520.1    0.56%    passed    100.00%
+ 430  ANA05522.1    0.56%    passed    100.00%
+ 431  ANA05523.1    0.56%    passed    100.00%
+ 432  ANA05524.1    0.56%    passed    100.00%
+ 433  ANA05525.1    0.56%    passed    100.00%
+ 434  ANA05526.1    0.56%    passed    100.00%
+ 435  ANA05528.1    0.56%    passed    100.00%
+ 436  ANA05529.1    0.56%    passed    100.00%
+ 437  ANA05531.1    0.56%    passed    100.00%
+ 438  ANA05534.1    0.56%    passed    100.00%
+ 439  ANA05536.1    0.56%    passed    100.00%
+ 440  ANA05537.1    0.56%    passed    100.00%
+ 441  ANA05538.1    0.56%    passed    100.00%
+ 442  ANA05541.1    0.56%    passed    100.00%
+ 443  ANA05542.1    0.56%    passed    100.00%
+ 444  ANA05544.1    0.56%    passed    100.00%
+ 445  ANA05545.1    0.56%    passed    100.00%
+ 446  ANA05546.1    0.56%    passed    100.00%
+ 447  ANA05547.1    0.56%    passed    100.00%
+ 448  ANA05548.1    0.56%    passed    100.00%
+ 449  ANA05549.1    0.56%    passed    100.00%
+ 450  ANA05550.1    0.56%    passed    100.00%
+ 451  ANA05553.1    0.56%    passed    100.00%
+ 452  ANA05557.1    0.56%    passed    100.00%
+ 453  ANA05558.1    0.56%    passed    100.00%
+ 454  ANA05559.1    0.56%    passed    100.00%
+ 455  ANA05560.1    0.56%    passed    100.00%
+ 456  ANA05562.1    0.56%    passed    100.00%
+ 457  ANA05565.1    0.56%    passed    100.00%
+ 458  ANA05568.1    0.56%    passed    100.00%
+ 459  ANA05569.1    0.56%    passed    100.00%
+ 460  ANA05570.1    0.56%    passed    100.00%
+ 461  ANA05571.1    0.56%    passed    100.00%
+ 462  ANA05573.1    0.56%    passed    100.00%
+ 463  ANA05574.1    0.56%    passed    100.00%
+ 464  ANA05575.1    0.56%    passed    100.00%
+ 465  ANA05576.1    0.56%    passed    100.00%
+ 466  ANA05577.1    0.56%    passed    100.00%
+ 467  ANA05578.1    0.56%    passed    100.00%
+ 468  ANA05579.1    0.56%    passed    100.00%
+ 469  ANA05580.1    0.56%    passed    100.00%
+ 470  ANA05581.1    0.56%    passed    100.00%
+ 471  ANA05582.1    0.56%    passed    100.00%
+ 472  ANA05583.1    0.56%    passed    100.00%
+ 473  ANA05585.1    0.56%    passed    100.00%
+ 474  ANA05586.1    0.56%    passed    100.00%
+ 475  ANA05589.1    0.56%    passed    100.00%
+ 476  ANA05590.1    0.56%    passed    100.00%
+ 477  ANA05592.1    0.56%    passed    100.00%
+ 478  ANA05593.1    0.56%    passed    100.00%
+ 479  ANA05594.1    0.56%    passed    100.00%
+ 480  ANA05595.1    0.56%    passed    100.00%
+ 481  ANA05597.1    0.56%    passed    100.00%
+ 482  ANA05598.1    0.56%    passed    100.00%
+ 483  ANA05599.1    0.56%    passed    100.00%
+ 484  ANA05600.1    0.56%    passed    100.00%
+ 485  ANA05602.1    0.56%    passed    100.00%
+ 486  ANA05603.1    0.56%    passed    100.00%
+ 487  AMN09984.1    0.56%    passed    100.00%
+ 488  AMN09985.1    0.56%    passed    100.00%
+ 489  AMN09986.1    0.56%    passed    100.00%
+ 490  ALB35244.1    0.56%    passed    100.00%
+ 491  AEZ01697.1    0.56%    passed    100.00%
+ 492  AEZ01713.1    0.56%    passed    100.00%
+ 493  AEZ01752.1    0.56%    passed    100.00%
+ 494  AFS33341.1    0.56%    passed    100.00%
+ 495  AFS33346.1    0.56%    passed    100.00%
+ 496  AFS33348.1    0.56%    passed    100.00%
+ 497  AFS33349.1    0.56%    passed    100.00%
+ 498  AFS33351.1    0.56%    passed    100.00%
+ 499  AFS33352.1    0.56%    passed    100.00%
+ 500  AFS33353.1    0.56%    passed    100.00%
+ 501  AFS33354.1    0.56%    passed    100.00%
+ 502  AFS33355.1    0.56%    passed    100.00%
+ 503  AFS33358.1    0.56%    passed    100.00%
+ 504  AFS33359.1    0.56%    passed    100.00%
+ 505  AFS33360.1    0.56%    passed    100.00%
+ 506  AFS33362.1    0.56%    passed    100.00%
+ 507  ACV53959.1    0.56%    passed    100.00%
+ 508  ACV53960.1    0.56%    passed    100.00%
+ 509  ACV53961.1    0.56%    passed    100.00%
+ 510  ACV53962.1    0.56%    passed    100.00%
+ 511  ACV53963.1    0.56%    passed    100.00%
+ 512  ACV53964.1    0.56%    passed    100.00%
+ 513  ACV53965.1    0.56%    passed    100.00%
+ 514  ACV53966.1    0.56%    passed    100.00%
+ 515  ACV53967.1    0.56%    passed    100.00%
+ 516  ACV53968.1    0.56%    passed    100.00%
+ 517  ACV53969.1    0.56%    passed    100.00%
+ 518  ACV53975.1    0.56%    passed    100.00%
+ 519  ACV53976.1    0.56%    passed    100.00%
+ 520  ACV53977.1    0.56%    passed    100.00%
+ 521  ACV53981.1    0.56%    passed    100.00%
+ 522  ACS92651.1    0.56%    passed    100.00%
+ 523  ACS92659.1    0.56%    passed    100.00%
+ 524  ACS92667.1    0.56%    passed    100.00%
+ 525  ACS92675.1    0.56%    passed    100.00%
+ 526  ACS92691.1    0.56%    passed    100.00%
+ 527  ACS92699.1    0.56%    passed    100.00%
+ 528  ANA05391.1    0.56%    passed    100.00%
+ 529  AFS33363.1    0.56%    passed    100.00%
+ 530  AFS33350.1    0.56%    passed    100.00%
+ 531  AFS33357.1    0.56%    passed    100.00%
+ 532  ALB35336.1    0.56%    passed    100.00%
+ 533  BHD12242.1    0.56%    passed    100.00%
+ 534  AFS33347.1    0.56%    passed    100.00%
+ 535  AFS33339.1    0.56%    passed    100.00%
+ 536  ANY26465.1    0.56%    passed    100.00%
+ 537  BBP42206.1    0.56%    passed    100.00%
+ 538  ASJ78057.1    0.56%    passed    100.00%
+ 539  ANA05378.1    0.56%    passed    100.00%
+ 540  ANA05387.1    0.56%    passed    100.00%
+ 541  ANA05448.1    0.56%    passed    100.00%
+ 542  ANA05508.1    0.56%    passed    100.00%
+ 543  ANA05514.1    0.56%    passed    100.00%
+ 544  ACV84004.1    0.56%    passed    100.00%
+ 545  ANA05530.1    0.56%    passed    100.00%
+ 546  ANY26460.1    0.56%    passed    100.00%
+ 547  ANA05368.1    0.56%    passed    100.00%
+ 548  YBL22119.1    0.56%    passed    100.00%
+ 549  YBL22127.1    0.56%    passed    100.00%
+ 550  YBL22143.1    0.56%    passed    100.00%
+ 551  YBL22167.1    0.56%    passed    100.00%
+ 552  YBL22175.1    0.56%    passed    100.00%
+ 553  YBL22183.1    0.56%    passed    100.00%
+ 554  YBL22188.1    0.56%    passed    100.00%
+ 555  ANA05506.1    0.56%    passed    100.00%
+ 556  AFS33334.1    0.56%    passed    100.00%
+ 557  ATI13696.1    0.56%    passed    100.00%
+ 558  ASJ77649.1    0.56%    passed    100.00%
+ 559  ANA05539.1    0.56%    passed    100.00%
+ 560  ANA05540.1    0.56%    passed    100.00%
+ 561  ANA05390.1    0.56%    passed    100.00%
+ 562  ACV84007.1    0.56%    passed    100.00%
+ 563  ANA05488.1    0.56%    passed    100.00%
+ 564  BBI16020.1    0.56%    passed    100.00%
+ 565  ANA05601.1    0.56%    passed    100.00%
+ 566  ACV84003.1    0.56%    passed    100.00%
+ 567  ACV84005.1    0.56%    passed    100.00%
+ 568  ACV84006.1    0.56%    passed    100.00%
+ 569  ACV53979.1    0.56%    passed    100.00%
+ 570  ACV53980.1    0.56%    passed    100.00%
+ 571  AFS33356.1    0.56%    passed    100.00%
+ 572  AEZ01736.1    0.56%    passed    100.00%
+ 573  AEZ01744.1    0.56%    passed    100.00%
+ 574  QDH43415.1    0.56%    passed    100.00%
+ 575  AFS33344.1    0.56%    passed    100.00%
+ 576  AFS33345.1    0.56%    passed    100.00%
+ 577  AGK28592.1    0.56%    passed    100.00%
+ 578  ASJ77457.1    0.56%    passed    100.00%
+ 579  ASJ77593.1    0.56%    passed    100.00%
+ 580  ANA05400.1    0.56%    passed    100.00%
+ 581  ACV53978.1    0.56%    passed    100.00%
+ 582  AFS33336.1    0.56%    passed    100.00%
+ 583  AEZ01705.1    0.56%    passed    100.00%
+ 584  ANA05437.1    0.56%    passed    100.00%
+ 585  AFS33342.1    0.56%    passed    100.00%
+ 586  ACV53971.1    0.56%    passed    100.00%
+ 587  ALB35275.1    0.75%    passed    100.00%
+ 588  ANA05535.1    0.56%    passed    100.00%
+ 589  ANA05418.1    0.56%    passed    100.00%
+ 590  ASJ77833.1    0.56%    passed    100.00%
+ 591  ANA05412.1    0.56%    passed    100.00%
+ 592  ASJ77793.1    0.56%    passed    100.00%
+ 593  BCZ98907.1    0.56%    passed    100.00%
+ 594  XBO81887.1    0.56%    passed    100.00%
+ 595  XBO81883.1    0.56%    passed    100.00%
+ 596  BHD12306.1    0.56%    passed    100.00%
+ 597  XBO81871.1    0.56%    passed    100.00%
+ 598  XBO81881.1    0.56%    passed    100.00%
+ 599  XBO81889.1    0.56%    passed    100.00%
+ 600  BEU33838.1    0.56%    passed    100.00%
+ 601  BEU33854.1    0.56%    passed    100.00%
+ 602  BEU33862.1    0.56%    passed    100.00%
+ 603  BEU33886.1    0.56%    passed    100.00%
+ 604  BDO24687.1    0.56%    passed    100.00%
+ 605  BDO24711.1    0.56%    passed    100.00%
+ 606  BDA81727.1    0.56%    passed    100.00%
+ 607  BDA81743.1    0.56%    passed    100.00%
+ 608  BDA81751.1    0.56%    passed    100.00%
+ 609  BCZ98891.1    0.56%    passed    100.00%
+ 610  BCZ98939.1    0.56%    passed    100.00%
+ 611  BBP42230.1    0.56%    passed    100.00%
+ 612  BBP42238.1    0.56%    passed    100.00%
+ 613  BBP42246.1    0.56%    passed    100.00%
+ 614  BBI16012.1    0.56%    passed    100.00%
+ 615  BBI16076.1    0.56%    passed    100.00%
+ 616  BBI16148.1    0.56%    passed    100.00%
+ 617  BBI16164.1    0.56%    passed    100.00%
+ 618  BBI18726.1    0.56%    passed    100.00%
+ 619  BBI18766.1    0.56%    passed    100.00%
+ 620  BBI18798.1    0.56%    passed    100.00%
+ 621  BBI18806.1    0.56%    passed    100.00%
+ 622  BBI18846.1    0.56%    passed    100.00%
+ 623  BBI18918.1    0.56%    passed    100.00%
+ 624  BBI18926.1    0.56%    passed    100.00%
+ 625  BBI18958.1    0.56%    passed    100.00%
+ 626  BBI18966.1    0.56%    passed    100.00%
+ 627  ANY26467.1    0.56%    passed    100.00%
+ 628  ANY26469.1    0.56%    passed    100.00%
+ 629  ANY26483.1    0.56%    passed    100.00%
+ 630  ANY26484.1    0.56%    passed    100.00%
+ 631  ANY26492.1    0.56%    passed    100.00%
+ 632  AHK23262.1    0.56%    passed    100.00%
+ 633  AEZ01729.1    0.56%    passed    100.00%
+ 634  AFS33361.1    0.56%    passed    100.00%
+ 635  ACS92683.1    0.56%    passed    100.00%
+ 636  BHD12258.1    0.56%    passed    100.00%
+ 637  BHD12266.1    0.56%    passed    100.00%
+ 638  BHD12274.1    0.56%    passed    100.00%
+ 639  BHD12314.1    0.56%    passed    100.00%
+ 640  BDA81679.1    0.56%    passed    100.00%
+ 641  BDA81687.1    0.56%    passed    100.00%
+ 642  BDA81695.1    0.56%    passed    100.00%
+ 643  BCZ98827.1    0.56%    passed    100.00%
+ 644  BBI16060.1    0.56%    passed    100.00%
+ 645  BBI18894.1    0.56%    passed    100.00%
+ 646  BBI18974.1    0.56%    passed    100.00%
+ 647  ATI13656.1    0.56%    passed    100.00%
+ 648  ASJ77481.1    0.56%    passed    100.00%
+ 649  ASJ77585.1    0.56%    passed    100.00%
+ 650  ASJ77601.1    0.56%    passed    100.00%
+ 651  ASJ77633.1    0.56%    passed    100.00%
+ 652  ASJ77665.1    0.56%    passed    100.00%
+ 653  ASJ77673.1    0.56%    passed    100.00%
+ 654  ASJ77817.1    0.56%    passed    100.00%
+ 655  ASJ77825.1    0.56%    passed    100.00%
+ 656  ASJ77913.1    0.56%    passed    100.00%
+ 657  ASJ77929.1    0.56%    passed    100.00%
+ 658  ASJ77969.1    0.56%    passed    100.00%
+ 659  ASJ78017.1    0.56%    passed    100.00%
+ 660  ASJ78025.1    0.56%    passed    100.00%
+ 661  ASJ78081.1    0.56%    passed    100.00%
+ 662  ASJ78089.1    0.56%    passed    100.00%
+ 663  ASJ78097.1    0.56%    passed    100.00%
+ 664  ASJ78297.1    0.56%    passed    100.00%
+ 665  ASJ78329.1    0.56%    passed    100.00%
+ 666  ASJ78337.1    0.56%    passed    100.00%
+ 667  ASJ78345.1    0.56%    passed    100.00%
+ 668  ASJ78353.1    0.56%    passed    100.00%
+ 669  ASJ78489.1    0.56%    passed    100.00%
+ 670  ASJ78497.1    0.56%    passed    100.00%
+ 671  ASJ78521.1    0.56%    passed    100.00%
+ 672  ASJ78529.1    0.56%    passed    100.00%
+ 673  ASJ78537.1    0.56%    passed    100.00%
+ 674  ASJ78545.1    0.56%    passed    100.00%
+ 675  ASJ78553.1    0.56%    passed    100.00%
+ 676  ASJ78577.1    0.56%    passed    100.00%
+ 677  ASJ78585.1    0.56%    passed    100.00%
+ 678  ASJ78609.1    0.56%    passed    100.00%
+ 679  ASJ78617.1    0.56%    passed    100.00%
+ 680  ASJ78625.1    0.56%    passed    100.00%
+ 681  ASJ78633.1    0.56%    passed    100.00%
+ 682  ASJ78641.1    0.56%    passed    100.00%
+ 683  ASJ78721.1    0.56%    passed    100.00%
+ 684  ASJ78753.1    0.56%    passed    100.00%
+ 685  ASJ78761.1    0.56%    passed    100.00%
+ 686  ANA05364.1    0.56%    passed    100.00%
+ 687  ANA05369.1    0.56%    passed    100.00%
+ 688  ANA05377.1    0.56%    passed    100.00%
+ 689  ANA05384.1    0.56%    passed    100.00%
+ 690  ANA05385.1    0.56%    passed    100.00%
+ 691  ANA05393.1    0.56%    passed    100.00%
+ 692  ANA05396.1    0.56%    passed    100.00%
+ 693  ANA05398.1    0.56%    passed    100.00%
+ 694  ANA05399.1    0.56%    passed    100.00%
+ 695  ANA05402.1    0.56%    passed    100.00%
+ 696  ANA05405.1    0.56%    passed    100.00%
+ 697  ANA05409.1    0.56%    passed    100.00%
+ 698  ANA05416.1    0.56%    passed    100.00%
+ 699  ANA05428.1    0.56%    passed    100.00%
+ 700  ANA05430.1    0.56%    passed    100.00%
+ 701  ANA05436.1    0.56%    passed    100.00%
+ 702  ANA05442.1    0.56%    passed    100.00%
+ 703  ANA05443.1    0.56%    passed    100.00%
+ 704  ANA05444.1    0.56%    passed    100.00%
+ 705  ANA05447.1    0.56%    passed    100.00%
+ 706  ANA05457.1    0.56%    passed    100.00%
+ 707  ANA05459.1    0.56%    passed    100.00%
+ 708  ANA05463.1    0.56%    passed    100.00%
+ 709  ANA05466.1    0.56%    passed    100.00%
+ 710  ANA05471.1    0.56%    passed    100.00%
+ 711  ANA05475.1    0.56%    passed    100.00%
+ 712  ANA05482.1    0.56%    passed    100.00%
+ 713  ANA05490.1    0.56%    passed    100.00%
+ 714  ANA05498.1    0.56%    passed    100.00%
+ 715  ANA05510.1    0.56%    passed    100.00%
+ 716  ANA05512.1    0.56%    passed    100.00%
+ 717  ANA05518.1    0.56%    passed    100.00%
+ 718  ANA05521.1    0.56%    passed    100.00%
+ 719  ANA05527.1    0.56%    passed    100.00%
+ 720  ANA05532.1    0.56%    passed    100.00%
+ 721  ANA05533.1    0.56%    passed    100.00%
+ 722  ANA05543.1    0.56%    passed    100.00%
+ 723  ANA05551.1    0.56%    passed    100.00%
+ 724  ANA05554.1    0.56%    passed    100.00%
+ 725  ANA05561.1    0.56%    passed    100.00%
+ 726  ANA05563.1    0.56%    passed    100.00%
+ 727  ANA05564.1    0.56%    passed    100.00%
+ 728  ANA05567.1    0.56%    passed    100.00%
+ 729  ANA05572.1    0.56%    passed    100.00%
+ 730  ANA05587.1    0.56%    passed    100.00%
+ 731  ANA05588.1    0.56%    passed    100.00%
+ 732  ANA05591.1    0.56%    passed    100.00%
+ 733  ALB35322.1    0.56%    passed    100.00%
+ 734  ALB35236.1    0.56%    passed    100.00%
+ 735  ALB35252.1    0.56%    passed    100.00%
+ 736  ALB35260.1    0.56%    passed    100.00%
+ 737  ALB35292.1    0.56%    passed    100.00%
+ 738  ALB35315.1    0.56%    passed    100.00%
+ 739  ACV53956.1    0.56%    passed    100.00%
+ 740  ACV53957.1    0.56%    passed    100.00%
+ 741  ACV53958.1    0.56%    passed    100.00%
+ 742  ACV53970.1    0.56%    passed    100.00%
+ 743  ACV53972.1    0.56%    passed    100.00%
+ 744  ACV53974.1    0.56%    passed    100.00%
+ 745  XBO81885.1    0.56%    passed    100.00%
+ 746  YBL22159.1    0.56%    passed    100.00%
+ 747  ANA05373.1    0.56%    passed    100.00%
+ 748  BEU33846.1    0.56%    passed    100.00%
+ 749  AFS33337.1    0.56%    passed    100.00%
+ 750  AFS33343.1    0.56%    passed    100.00%
+ 751  BBP42222.1    0.56%    passed    100.00%
+ 752  ASJ77617.1    0.56%    passed    100.00%
+ 753  ATI13720.1    0.56%    passed    100.00%
+ 754  ANA05493.1    0.56%    passed    100.00%
+ 755  ADH94047.1    0.56%    passed    100.00%
+ 756  ACA49854.1    1.69%    passed    100.00%
+ 757  ATI13648.1    0.56%    passed    100.00%
+ 758  ANA05566.1    0.56%    passed    100.00%
+ 759  ALT54610.1    8.24%    passed    100.00%
+ 760  QMJ53960.1    5.62%    passed    100.00%
+ 761  QYJ09923.1    5.43%    passed    100.00%
+ 762  XPA21028.1    5.43%    passed    100.00%
+ 763  XPA21132.1    5.43%    passed    100.00%
+ 764  QYJ09893.1    5.43%    passed    100.00%
+ 765  QYJ09900.1    5.43%    passed    100.00%
+ 766  XWS90052.1    5.43%    passed    100.00%
+ 767  XWS90060.1    5.43%    passed    100.00%
+ 768  XWS90068.1    5.43%    passed    100.00%
+ 769  XWS90076.1    5.43%    passed    100.00%
+ 770  XWS90084.1    5.43%    passed    100.00%
+ 771  XWS90092.1    5.43%    passed    100.00%
+ 772  XWS90100.1    5.43%    passed    100.00%
+ 773  XWS90116.1    5.43%    passed    100.00%
+ 774  XWS90124.1    5.43%    passed    100.00%
+ 775  XWS90140.1    5.43%    passed    100.00%
+ 776  XWS90148.1    5.43%    passed    100.00%
+ 777  XPA20837.1    5.43%    passed    100.00%
+ 778  XPA20845.1    5.43%    passed    100.00%
+ 779  XPA20860.1    5.43%    passed    100.00%
+ 780  XPA20868.1    5.43%    passed    100.00%
+ 781  XPA20892.1    5.43%    passed    100.00%
+ 782  XPA20908.1    5.43%    passed    100.00%
+ 783  XPA20924.1    5.43%    passed    100.00%
+ 784  XPA20948.1    5.43%    passed    100.00%
+ 785  XPA20956.1    5.43%    passed    100.00%
+ 786  XPA20972.1    5.43%    passed    100.00%
+ 787  XPA20980.1    5.43%    passed    100.00%
+ 788  XPA21004.1    5.43%    passed    100.00%
+ 789  XPA21012.1    5.43%    passed    100.00%
+ 790  XPA21036.1    5.43%    passed    100.00%
+ 791  XPA21076.1    5.43%    passed    100.00%
+ 792  XPA21084.1    5.43%    passed    100.00%
+ 793  XPA21092.1    5.43%    passed    100.00%
+ 794  XPA21100.1    5.43%    passed    100.00%
+ 795  XPA21108.1    5.43%    passed    100.00%
+ 796  XPA21116.1    5.43%    passed    100.00%
+ 797  XPA21140.1    5.43%    passed    100.00%
+ 798  XPA21164.1    5.43%    passed    100.00%
+ 799  XPA21180.1    5.43%    passed    100.00%
+ 800  XPA21188.1    5.43%    passed    100.00%
+ 801  XPA21204.1    5.43%    passed    100.00%
+ 802  QYJ09890.1    5.43%    passed    100.00%
+ 803  QYJ09891.1    5.43%    passed    100.00%
+ 804  QYJ09892.1    5.43%    passed    100.00%
+ 805  QYJ09894.1    5.43%    passed    100.00%
+ 806  QYJ09895.1    5.43%    passed    100.00%
+ 807  QYJ09896.1    5.43%    passed    100.00%
+ 808  QYJ09897.1    5.43%    passed    100.00%
+ 809  QYJ09898.1    5.43%    passed    100.00%
+ 810  QYJ09899.1    5.43%    passed    100.00%
+ 811  QYJ09901.1    5.43%    passed    100.00%
+ 812  QYJ09902.1    5.43%    passed    100.00%
+ 813  QYJ09903.1    5.43%    passed    100.00%
+ 814  QYJ09904.1    5.43%    passed    100.00%
+ 815  QYJ09905.1    5.43%    passed    100.00%
+ 816  QYJ09906.1    5.43%    passed    100.00%
+ 817  QYJ09907.1    5.43%    passed    100.00%
+ 818  QYJ09908.1    5.43%    passed    100.00%
+ 819  QYJ09909.1    5.43%    passed    100.00%
+ 820  QYJ09910.1    5.43%    passed    100.00%
+ 821  QYJ09911.1    5.43%    passed    100.00%
+ 822  QYJ09912.1    5.43%    passed    100.00%
+ 823  QYJ09913.1    5.43%    passed    100.00%
+ 824  QYJ09914.1    5.43%    passed    100.00%
+ 825  QYJ09916.1    5.43%    passed    100.00%
+ 826  QYJ09918.1    5.43%    passed    100.00%
+ 827  QYJ09919.1    5.43%    passed    100.00%
+ 828  QYJ09922.1    5.43%    passed    100.00%
+ 829  QYJ09925.1    5.43%    passed    100.00%
+ 830  QYJ09926.1    5.43%    passed    100.00%
+ 831  QYJ09927.1    5.43%    passed    100.00%
+ 832  QMJ53585.1    5.43%    passed    100.00%
+ 833  QMJ53593.1    5.43%    passed    100.00%
+ 834  QMJ53611.1    5.43%    passed    100.00%
+ 835  QMJ53626.1    5.43%    passed    100.00%
+ 836  QMJ53652.1    5.43%    passed    100.00%
+ 837  QMJ53675.1    5.43%    passed    100.00%
+ 838  QMJ53693.1    5.43%    passed    100.00%
+ 839  QMJ53702.1    5.43%    passed    100.00%
+ 840  QMJ53711.1    5.43%    passed    100.00%
+ 841  QMJ53720.1    5.43%    passed    100.00%
+ 842  QMJ53789.1    5.43%    passed    100.00%
+ 843  QMJ53807.1    5.43%    passed    100.00%
+ 844  QMJ53827.1    5.43%    passed    100.00%
+ 845  QMJ53845.1    5.43%    passed    100.00%
+ 846  QMJ53934.1    5.43%    passed    100.00%
+ 847  QMJ53952.1    5.43%    passed    100.00%
+ 848  QMJ53969.1    5.43%    passed    100.00%
+ 849  QMJ53996.1    5.43%    passed    100.00%
+ 850  QMJ54023.1    5.43%    passed    100.00%
+ 851  QMJ54056.1    5.43%    passed    100.00%
+ 852  QMJ54074.1    5.43%    passed    100.00%
+ 853  QMJ54083.1    5.43%    passed    100.00%
+ 854  QMJ54128.1    5.43%    passed    100.00%
+ 855  QMJ54155.1    5.43%    passed    100.00%
+ 856  QMJ54200.1    5.43%    passed    100.00%
+ 857  QMJ54209.1    5.43%    passed    100.00%
+ 858  QMJ54234.1    5.43%    passed    100.00%
+ 859  QMJ54251.1    5.43%    passed    100.00%
+ 860  QMJ54258.1    5.43%    passed    100.00%
+ 861  QMJ54312.1    5.43%    passed    100.00%
+ 862  QMJ54321.1    5.43%    passed    100.00%
+ 863  QMJ54330.1    5.43%    passed    100.00%
+ 864  QMJ54339.1    5.43%    passed    100.00%
+ 865  AJW82190.1    5.43%    passed    100.00%
+ 866  AJW82212.1    5.43%    passed    100.00%
+ 867  AIQ82816.1    5.43%    passed    100.00%
+ 868  AIQ82819.1    5.43%    passed    100.00%
+ 869  AIQ82822.1    5.43%    passed    100.00%
+ 870  AIQ82824.1    5.43%    passed    100.00%
+ 871  AIQ82827.1    5.43%    passed    100.00%
+ 872  AIQ82828.1    5.43%    passed    100.00%
+ 873  AIQ82831.1    5.43%    passed    100.00%
+ 874  AIQ82834.1    5.43%    passed    100.00%
+ 875  AIQ82840.1    5.43%    passed    100.00%
+ 876  AIQ82843.1    5.43%    passed    100.00%
+ 877  ALT54594.1    6.74%    passed    100.00%
+ 878  XWS90132.1    5.43%    passed    100.00%
+ 879  XWS90108.1    5.43%    passed    100.00%
+ 880  XPA20996.1    5.43%    passed    100.00%
+ 881  QMJ54218.1    5.43%    passed    100.00%
+ 882  AIQ82817.1    5.43%    passed    100.00%
+ 883  AJW82191.1    5.43%    passed    100.00%
+ 884  QMJ53771.1    5.43%    passed    100.00%
+ 885  QMJ54191.1    5.43%    passed    100.00%
+ 886  QMJ54348.1    5.43%    passed    100.00%
+ 887  QYJ09915.1    5.43%    passed    100.00%
+ 888  QYJ09917.1    5.43%    passed    100.00%
+ 889  QYJ09921.1    5.43%    passed    100.00%
+ 890  XPA21196.1    5.43%    passed    100.00%
+ 891  ALT54618.1    5.99%    passed    100.00%
+ 892  XPA20916.1    5.43%    passed    100.00%
+ 893  XPA20964.1    5.43%    passed    100.00%
+ 894  XPA20932.1    5.43%    passed    100.00%
+ 895  QMJ54294.1    5.43%    passed    100.00%
+ 896  AIQ82836.1    5.43%    passed    100.00%
+ 897  WLD30050.1    5.43%    passed    100.00%
+ 898  AIQ82846.1    5.43%    passed    100.00%
+ 899  QYJ09920.1    5.43%    passed    100.00%
+ 900  QMJ54173.1    8.99%    passed    100.00%
+ 901  QYJ09928.1    5.43%    passed    100.00%
+ 902  QYJ09924.1    5.43%    passed    100.00%
+ 903  YBL60022.1    5.43%    passed    100.00%
+ 904  XWS90156.1    5.43%    passed    100.00%
+ 905  XWS90164.1    5.43%    passed    100.00%
+ 906  XWS90172.1    5.43%    passed    100.00%
+ 907  XPA20821.1    5.43%    passed    100.00%
+ 908  XPA20853.1    5.43%    passed    100.00%
+ 909  XPA20900.1    5.43%    passed    100.00%
+ 910  XPA20940.1    5.43%    passed    100.00%
+ 911  XPA20988.1    5.43%    passed    100.00%
+ 912  XPA21020.1    5.43%    passed    100.00%
+ 913  XPA21052.1    5.43%    passed    100.00%
+ 914  XPA21060.1    5.43%    passed    100.00%
+ 915  XPA21068.1    5.43%    passed    100.00%
+ 916  XPA21124.1    5.43%    passed    100.00%
+ 917  XPA21148.1    5.43%    passed    100.00%
+ 918  XPA21156.1    5.43%    passed    100.00%
+ 919  XPA21172.1    5.43%    passed    100.00%
+ 920  XPA21212.1    5.43%    passed    100.00%
+ 921  XQQ44981.1    5.43%    passed    100.00%
+ 922  XQQ44995.1    5.43%    passed    100.00%
+ 923  WLD30051.1    5.43%    passed    100.00%
+ 924  QMJ54392.1    5.43%    passed    100.00%
+ 925  ALT54602.1    5.43%    passed    100.00%
+ 926  ALT54634.1    5.43%    passed    100.00%
+ 927  AJW82201.1    5.43%    passed    100.00%
+ 928  AJW82216.1    5.43%    passed    100.00%
+ 929  AIQ82825.1    5.43%    passed    100.00%
+ 930  AIQ82830.1    5.43%    passed    100.00%
+ 931  AIQ82845.1    5.43%    passed    100.00%
+ 932  XPA20876.1    5.43%    passed    100.00%
+ 933  XPA20884.1    5.43%    passed    100.00%
+ 934  QMJ53666.1    5.43%    passed    100.00%
+ 935  QMJ53684.1    5.43%    passed    100.00%
+ 936  QMJ53762.1    5.43%    passed    100.00%
+ 937  QMJ53780.1    5.43%    passed    100.00%
+ 938  QMJ53925.1    5.43%    passed    100.00%
+ 939  QMJ53943.1    5.43%    passed    100.00%
+ 940  QMJ53987.1    5.43%    passed    100.00%
+ 941  QMJ54014.1    5.43%    passed    100.00%
+ 942  QMJ54041.1    5.43%    passed    100.00%
+ 943  QMJ54065.1    5.43%    passed    100.00%
+ 944  QMJ54101.1    5.43%    passed    100.00%
+ 945  QMJ54110.1    5.43%    passed    100.00%
+ 946  QMJ54119.1    5.43%    passed    100.00%
+ 947  QMJ54164.1    5.43%    passed    100.00%
+ 948  QMJ54227.1    5.43%    passed    100.00%
+ 949  QMJ54242.1    5.43%    passed    100.00%
+ 950  QMJ54276.1    5.43%    passed    100.00%
+ 951  QMJ54285.1    5.43%    passed    100.00%
+ 952  QMJ54357.1    5.43%    passed    100.00%
+ 953  QMJ54375.1    5.43%    passed    100.00%
+ 954  AJW82192.1    5.43%    passed    100.00%
+ 955  AJW82193.1    5.43%    passed    100.00%
+ 956  AJW82194.1    5.43%    passed    100.00%
+ 957  AJW82195.1    5.43%    passed    100.00%
+ 958  AJW82196.1    5.43%    passed    100.00%
+ 959  AJW82197.1    5.43%    passed    100.00%
+ 960  AJW82198.1    5.43%    passed    100.00%
+ 961  AJW82199.1    5.43%    passed    100.00%
+ 962  AJW82200.1    5.43%    passed    100.00%
+ 963  AJW82202.1    5.43%    passed    100.00%
+ 964  AJW82203.1    5.43%    passed    100.00%
+ 965  AJW82204.1    5.43%    passed    100.00%
+ 966  AJW82205.1    5.43%    passed    100.00%
+ 967  AJW82206.1    5.43%    passed    100.00%
+ 968  AJW82207.1    5.43%    passed    100.00%
+ 969  AJW82208.1    5.43%    passed    100.00%
+ 970  AJW82209.1    5.43%    passed    100.00%
+ 971  AJW82210.1    5.43%    passed    100.00%
+ 972  AJW82211.1    5.43%    passed    100.00%
+ 973  AJW82213.1    5.43%    passed    100.00%
+ 974  AJW82214.1    5.43%    passed    100.00%
+ 975  AJW82215.1    5.43%    passed    100.00%
+ 976  AIQ82818.1    5.43%    passed    100.00%
+ 977  AIQ82820.1    5.43%    passed    100.00%
+ 978  AIQ82821.1    5.43%    passed    100.00%
+ 979  AIQ82823.1    5.43%    passed    100.00%
+ 980  AIQ82826.1    5.43%    passed    100.00%
+ 981  AIQ82829.1    5.43%    passed    100.00%
+ 982  AIQ82832.1    5.43%    passed    100.00%
+ 983  AIQ82833.1    5.43%    passed    100.00%
+ 984  AIQ82835.1    5.43%    passed    100.00%
+ 985  AIQ82837.1    5.43%    passed    100.00%
+ 986  AIQ82838.1    5.43%    passed    100.00%
+ 987  AIQ82839.1    5.43%    passed    100.00%
+ 988  AIQ82841.1    5.43%    passed    100.00%
+ 989  AIQ82842.1    5.43%    passed    100.00%
+ 990  AIQ82844.1    5.43%    passed    100.00%
+ 991  QMJ53635.1    5.43%    passed    100.00%
+ 992  XPA20829.1    5.43%    passed    100.00%
+ 993  QMJ53576.1    5.43%    passed    100.00%
+ 994  QMJ53602.1    5.43%    passed    100.00%
+ 995  QMJ53617.1    5.43%    passed    100.00%
+ 996  QMJ53644.1    5.43%    passed    100.00%
+ 997  QMJ53729.1    5.43%    passed    100.00%
+ 998  QMJ53738.1    5.43%    passed    100.00%
+ 999  QMJ53753.1    5.43%    passed    100.00%
+1000  QMJ53798.1    5.43%    passed    100.00%
+1001  QMJ53818.1    5.43%    passed    100.00%
+1002  QMJ53836.1    5.43%    passed    100.00%
+1003  QMJ53871.1    5.43%    passed    100.00%
+1004  QMJ53880.1    5.43%    passed    100.00%
+1005  QMJ53889.1    5.43%    passed    100.00%
+1006  QMJ53907.1    5.43%    passed    100.00%
+1007  QMJ53916.1    5.43%    passed    100.00%
+1008  QMJ54032.1    5.43%    passed    100.00%
+1009  QMJ54092.1    5.43%    passed    100.00%
+1010  QMJ54137.1    5.43%    passed    100.00%
+1011  QMJ54146.1    5.43%    passed    100.00%
+1012  QMJ54182.1    5.43%    passed    100.00%
+1013  QMJ54303.1    5.43%    passed    100.00%
+1014  QMJ54366.1    5.43%    passed    100.00%
+1015  QMJ54384.1    5.43%    passed    100.00%
+1016  XPA21044.1    5.43%    passed    100.00%
+1017  QMJ53744.1    7.30%    passed    100.00%
+1018  QMJ53898.1    5.43%    passed    100.00%
+1019  QMJ53978.1    5.62%    passed    100.00%
+1020  QMJ54005.1    5.43%    passed    100.00%
+1021  ALT54626.1    8.05%    passed    100.00%
+1022  ACN91169.1    6.18%    passed    100.00%
+1023  ACN91170.1    5.81%    passed    100.00%
+1024  ACN91171.1    5.81%    passed    100.00%
+1025  ACN91180.1    5.81%    passed    100.00%
+1026  ACN91158.1    5.81%    passed    100.00%
+1027  ACN91176.1    5.81%    passed    100.00%
+1028  ACN91161.1    5.81%    passed    100.00%
+1029  ACN91174.1    5.81%    passed    100.00%
+1030  ACN91168.1    6.18%    passed    100.00%
+1031  ACN91160.1    5.81%    passed    100.00%
+1032  ACN91175.1    5.81%    passed    100.00%
+1033  ACN91179.1    5.81%    passed    100.00%
+1034  ACN91181.1    5.81%    passed    100.00%
+1035  ACN91157.1    5.81%    passed    100.00%
+1036  ACN91159.1    5.81%    passed    100.00%
+1037  ACN91162.1    5.81%    passed    100.00%
+1038  ACN91163.1    5.81%    passed    100.00%
+1039  ACN91164.1    5.81%    passed    100.00%
+1040  ACN91165.1    5.81%    passed    100.00%
+1041  ACN91166.1    5.81%    passed    100.00%
+1042  ACN91173.1    5.81%    passed    100.00%
+1043  ACN91177.1    5.81%    passed    100.00%
+1044  ACN91178.1    5.81%    passed    100.00%
+1045  ACN91182.1    5.81%    passed    100.00%
+1046  ACN91167.1    5.81%    passed    100.00%
+1047  ACN91172.1    5.81%    passed    100.00%
+****  TOTAL         1.97%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.237 seconds
+
+NOTE: 42 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3051.337
+Optimal log-likelihood: -3051.025
+Parameters optimization took 1 rounds (0.431 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 19.4938 secs using 99.25% CPU
+Computing ML distances took 19.496285 sec (of wall-clock time) 19.349891 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0151343 secs using 178.5% CPU
+Constructing RapidNJ tree: done in 0.157581 secs using 190% CPU
+Computing RapidNJ tree took 0.172791 sec (of wall-clock time) 0.327499 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3048.787
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 24.318 second
+Computing log-likelihood of 98 initial trees ... 14.451 seconds
+Current best score: -3041.438
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 3.47557 secs using 98.81% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3041.316
+Optimizing NNI: done in 4.03635 secs using 99.12% CPU
+Optimizing NNI: done in 3.39039 secs using 98.54% CPU
+Optimizing NNI: done in 3.35207 secs using 98.57% CPU
+Optimizing NNI: done in 4.39647 secs using 98.23% CPU
+Optimizing NNI: done in 2.8979 secs using 98.81% CPU
+Optimizing NNI: done in 4.65735 secs using 98.98% CPU
+Optimizing NNI: done in 3.60713 secs using 98.17% CPU
+Optimizing NNI: done in 2.80917 secs using 98.21% CPU
+Optimizing NNI: done in 2.62772 secs using 99.06% CPU
+Iteration 10 / LogL: -3043.075 / Time: 0h:1m:36s
+Optimizing NNI: done in 2.44182 secs using 96.71% CPU
+Optimizing NNI: done in 3.19525 secs using 97.32% CPU
+Optimizing NNI: done in 4.18061 secs using 98.36% CPU
+Optimizing NNI: done in 3.90908 secs using 98.74% CPU
+Optimizing NNI: done in 3.11806 secs using 98.95% CPU
+Optimizing NNI: done in 3.47952 secs using 98.59% CPU
+Optimizing NNI: done in 3.41718 secs using 98.57% CPU
+Optimizing NNI: done in 3.94481 secs using 99.02% CPU
+Optimizing NNI: done in 5.34045 secs using 98.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -3039.842
+Optimizing NNI: done in 3.76477 secs using 98.54% CPU
+Iteration 20 / LogL: -3048.954 / Time: 0h:2m:13s
+Finish initializing candidate tree set (20)
+Current best tree score: -3039.842 / CPU time: 112.340
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 3.39678 secs using 98.91% CPU
+Optimizing NNI: done in 6.04595 secs using 98.38% CPU
+Optimizing NNI: done in 6.17404 secs using 98.81% CPU
+Optimizing NNI: done in 2.6516 secs using 98.73% CPU
+Optimizing NNI: done in 2.26416 secs using 98.93% CPU
+Optimizing NNI: done in 2.43657 secs using 98.29% CPU
+Optimizing NNI: done in 2.95211 secs using 99.03% CPU
+Optimizing NNI: done in 6.00649 secs using 98.53% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -3038.222
+Optimizing NNI: done in 3.71042 secs using 98.51% CPU
+Optimizing NNI: done in 3.1624 secs using 97.56% CPU
+Iteration 30 / LogL: -3047.915 / Time: 0h:2m:54s (0h:9m:49s left)
+Optimizing NNI: done in 3.72683 secs using 99.14% CPU
+Optimizing NNI: done in 2.65365 secs using 97.8% CPU
+Optimizing NNI: done in 6.3752 secs using 97.56% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -3036.489
+Optimizing NNI: done in 4.5196 secs using 98.39% CPU
+Optimizing NNI: done in 3.12614 secs using 99.13% CPU
+Optimizing NNI: done in 2.90711 secs using 98.56% CPU
+Optimizing NNI: done in 2.36749 secs using 99.21% CPU
+Optimizing NNI: done in 6.04621 secs using 98.3% CPU
+Optimizing NNI: done in 3.95209 secs using 98.38% CPU
+Optimizing NNI: done in 3.40817 secs using 98.9% CPU
+Iteration 40 / LogL: -3038.626 / Time: 0h:3m:35s (0h:8m:33s left)
+Optimizing NNI: done in 3.01542 secs using 98.7% CPU
+Optimizing NNI: done in 2.38979 secs using 98.72% CPU
+Optimizing NNI: done in 2.68147 secs using 98% CPU
+Optimizing NNI: done in 3.12907 secs using 99.21% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -3036.023
+Optimizing NNI: done in 3.31129 secs using 98.63% CPU
+Optimizing NNI: done in 5.1521 secs using 98.55% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -3035.832
+Optimizing NNI: done in 3.18513 secs using 98.49% CPU
+Optimizing NNI: done in 3.00483 secs using 99.23% CPU
+Optimizing NNI: done in 1.93053 secs using 98.98% CPU
+Optimizing NNI: done in 10.5323 secs using 98.47% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -3035.064
+Iteration 50 / LogL: -3035.064 / Time: 0h:4m:16s (0h:8m:42s left)
+Optimizing NNI: done in 2.87066 secs using 98.93% CPU
+Optimizing NNI: done in 2.64895 secs using 98.32% CPU
+BETTER TREE FOUND at iteration 52: -3035.063
+Optimizing NNI: done in 3.80366 secs using 98.9% CPU
+Optimizing NNI: done in 3.02257 secs using 99.05% CPU
+Optimizing NNI: done in 2.50358 secs using 97.66% CPU
+Optimizing NNI: done in 3.25554 secs using 98.75% CPU
+Optimizing NNI: done in 3.08631 secs using 98.21% CPU
+Optimizing NNI: done in 3.04432 secs using 99.19% CPU
+Optimizing NNI: done in 3.34292 secs using 98.56% CPU
+Optimizing NNI: done in 3.06812 secs using 98.97% CPU
+Iteration 60 / LogL: -3036.880 / Time: 0h:4m:48s (0h:7m:29s left)
+Optimizing NNI: done in 3.5105 secs using 97.63% CPU
+Optimizing NNI: done in 2.85906 secs using 98.13% CPU
+Optimizing NNI: done in 2.57116 secs using 99.14% CPU
+Optimizing NNI: done in 2.43383 secs using 97.81% CPU
+Optimizing NNI: done in 2.29722 secs using 98.7% CPU
+Optimizing NNI: done in 3.60983 secs using 97.62% CPU
+Optimizing NNI: done in 2.94009 secs using 98.12% CPU
+Optimizing NNI: done in 2.3833 secs using 97.99% CPU
+Optimizing NNI: done in 2.82052 secs using 99.03% CPU
+Optimizing NNI: done in 3.19625 secs using 98.36% CPU
+Iteration 70 / LogL: -3036.816 / Time: 0h:5m:19s (0h:6m:18s left)
+Optimizing NNI: done in 2.39936 secs using 97.77% CPU
+Optimizing NNI: done in 2.76562 secs using 98.91% CPU
+Optimizing NNI: done in 2.81975 secs using 97.97% CPU
+Optimizing NNI: done in 2.4636 secs using 98.77% CPU
+Optimizing NNI: done in 2.97401 secs using 98.09% CPU
+Optimizing NNI: done in 2.26956 secs using 98.87% CPU
+Optimizing NNI: done in 2.88443 secs using 98.27% CPU
+Optimizing NNI: done in 3.79866 secs using 97.95% CPU
+Optimizing NNI: done in 2.93482 secs using 98.86% CPU
+Optimizing NNI: done in 3.21419 secs using 98.35% CPU
+Iteration 80 / LogL: -3037.711 / Time: 0h:5m:49s (0h:5m:17s left)
+Optimizing NNI: done in 2.70426 secs using 98.44% CPU
+Optimizing NNI: done in 3.12613 secs using 98.29% CPU
+Optimizing NNI: done in 3.04977 secs using 98.45% CPU
+Optimizing NNI: done in 2.07894 secs using 98.75% CPU
+Optimizing NNI: done in 2.62525 secs using 98.34% CPU
+Optimizing NNI: done in 2.27686 secs using 98.75% CPU
+Optimizing NNI: done in 3.31932 secs using 98% CPU
+Optimizing NNI: done in 2.22565 secs using 98.63% CPU
+Optimizing NNI: done in 3.46942 secs using 97.75% CPU
+Optimizing NNI: done in 2.6 secs using 98.85% CPU
+Iteration 90 / LogL: -3035.873 / Time: 0h:6m:18s (0h:4m:23s left)
+Optimizing NNI: done in 3.05704 secs using 98.39% CPU
+Optimizing NNI: done in 2.67536 secs using 98.89% CPU
+Optimizing NNI: done in 3.05373 secs using 98.88% CPU
+Optimizing NNI: done in 2.95877 secs using 98.87% CPU
+Optimizing NNI: done in 2.65793 secs using 98.69% CPU
+Optimizing NNI: done in 3.54428 secs using 98.36% CPU
+Optimizing NNI: done in 3.46795 secs using 99.1% CPU
+Optimizing NNI: done in 2.99929 secs using 98.83% CPU
+Optimizing NNI: done in 3.03094 secs using 98.09% CPU
+Optimizing NNI: done in 2.91524 secs using 98.83% CPU
+Iteration 100 / LogL: -3042.411 / Time: 0h:6m:50s (0h:3m:35s left)
+Optimizing NNI: done in 3.06755 secs using 98.14% CPU
+Optimizing NNI: done in 2.64944 secs using 97.95% CPU
+Optimizing NNI: done in 2.82459 secs using 98.86% CPU
+Optimizing NNI: done in 2.74198 secs using 98.2% CPU
+Optimizing NNI: done in 2.93139 secs using 99.18% CPU
+Optimizing NNI: done in 2.82165 secs using 98.42% CPU
+Optimizing NNI: done in 2.93204 secs using 99.4% CPU
+Optimizing NNI: done in 2.75528 secs using 99.13% CPU
+Optimizing NNI: done in 2.78702 secs using 98.09% CPU
+Optimizing NNI: done in 2.54963 secs using 99.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -3034.956
+Iteration 110 / LogL: -3034.956 / Time: 0h:7m:20s (0h:6m:43s left)
+Optimizing NNI: done in 3.29131 secs using 98.56% CPU
+Optimizing NNI: done in 2.17048 secs using 98.83% CPU
+Optimizing NNI: done in 3.59024 secs using 98.05% CPU
+Optimizing NNI: done in 2.55027 secs using 98.93% CPU
+Optimizing NNI: done in 2.52236 secs using 98.18% CPU
+Optimizing NNI: done in 2.79537 secs using 99.14% CPU
+Optimizing NNI: done in 3.10809 secs using 98.06% CPU
+Optimizing NNI: done in 2.5021 secs using 98.36% CPU
+Optimizing NNI: done in 2.97635 secs using 98.86% CPU
+Optimizing NNI: done in 2.27709 secs using 97.85% CPU
+Iteration 120 / LogL: -3035.378 / Time: 0h:7m:49s (0h:5m:54s left)
+Optimizing NNI: done in 2.66705 secs using 98.65% CPU
+Optimizing NNI: done in 2.51151 secs using 98.15% CPU
+Optimizing NNI: done in 3.13905 secs using 98.91% CPU
+Optimizing NNI: done in 2.31098 secs using 97.87% CPU
+Optimizing NNI: done in 2.60498 secs using 98.57% CPU
+Optimizing NNI: done in 3.17743 secs using 98.26% CPU
+Optimizing NNI: done in 2.90749 secs using 98.73% CPU
+Optimizing NNI: done in 2.55371 secs using 99.08% CPU
+Optimizing NNI: done in 3.00359 secs using 98.36% CPU
+Optimizing NNI: done in 2.91708 secs using 98.94% CPU
+Iteration 130 / LogL: -3043.693 / Time: 0h:8m:18s (0h:5m:9s left)
+Optimizing NNI: done in 3.09135 secs using 98.46% CPU
+Optimizing NNI: done in 2.7933 secs using 98.72% CPU
+Optimizing NNI: done in 2.4632 secs using 98.67% CPU
+Optimizing NNI: done in 2.59045 secs using 98.46% CPU
+Optimizing NNI: done in 2.43228 secs using 98.69% CPU
+Optimizing NNI: done in 2.40898 secs using 98.77% CPU
+Optimizing NNI: done in 2.92305 secs using 99.05% CPU
+Optimizing NNI: done in 2.57308 secs using 97.68% CPU
+Optimizing NNI: done in 3.60146 secs using 98.59% CPU
+Optimizing NNI: done in 3.22414 secs using 99.03% CPU
+Iteration 140 / LogL: -3062.848 / Time: 0h:8m:48s (0h:4m:26s left)
+Optimizing NNI: done in 3.10485 secs using 98.44% CPU
+Optimizing NNI: done in 3.02602 secs using 99.05% CPU
+Optimizing NNI: done in 2.60577 secs using 98.21% CPU
+Optimizing NNI: done in 2.57248 secs using 98.48% CPU
+Optimizing NNI: done in 2.78245 secs using 99.1% CPU
+Optimizing NNI: done in 2.44461 secs using 98.22% CPU
+Optimizing NNI: done in 2.87865 secs using 98.94% CPU
+Optimizing NNI: done in 2.17357 secs using 97.73% CPU
+Optimizing NNI: done in 2.56153 secs using 99.12% CPU
+Optimizing NNI: done in 3.07862 secs using 98.92% CPU
+Iteration 150 / LogL: -3035.565 / Time: 0h:9m:17s (0h:3m:44s left)
+Optimizing NNI: done in 2.80931 secs using 98.33% CPU
+Optimizing NNI: done in 3.51467 secs using 98.58% CPU
+Optimizing NNI: done in 2.58001 secs using 99.13% CPU
+Optimizing NNI: done in 3.03573 secs using 98.51% CPU
+Optimizing NNI: done in 2.93692 secs using 98.15% CPU
+Optimizing NNI: done in 4.70633 secs using 98.86% CPU
+Optimizing NNI: done in 3.11467 secs using 97.89% CPU
+Optimizing NNI: done in 2.66684 secs using 98.27% CPU
+Optimizing NNI: done in 2.74084 secs using 99.31% CPU
+Optimizing NNI: done in 2.84293 secs using 98.75% CPU
+Iteration 160 / LogL: -3036.887 / Time: 0h:9m:49s (0h:3m:5s left)
+Optimizing NNI: done in 2.59348 secs using 99.02% CPU
+Optimizing NNI: done in 3.21666 secs using 99.05% CPU
+Optimizing NNI: done in 2.10908 secs using 98.22% CPU
+Optimizing NNI: done in 2.85215 secs using 99.09% CPU
+Optimizing NNI: done in 2.60183 secs using 98.98% CPU
+Optimizing NNI: done in 2.1138 secs using 98.77% CPU
+Optimizing NNI: done in 2.56113 secs using 99.17% CPU
+Optimizing NNI: done in 3.82093 secs using 99% CPU
+Optimizing NNI: done in 2.33489 secs using 98.16% CPU
+Optimizing NNI: done in 2.39683 secs using 99.13% CPU
+Iteration 170 / LogL: -3035.876 / Time: 0h:10m:18s (0h:2m:26s left)
+Optimizing NNI: done in 3.20894 secs using 98.22% CPU
+Optimizing NNI: done in 2.29597 secs using 98.94% CPU
+Optimizing NNI: done in 3.06564 secs using 98.12% CPU
+Optimizing NNI: done in 2.16698 secs using 98.89% CPU
+Optimizing NNI: done in 5.33767 secs using 98.25% CPU
+Optimizing NNI: done in 2.74013 secs using 98.08% CPU
+Optimizing NNI: done in 3.17375 secs using 98.46% CPU
+Optimizing NNI: done in 2.88048 secs using 98.15% CPU
+Optimizing NNI: done in 2.10843 secs using 98.63% CPU
+Optimizing NNI: done in 2.82297 secs using 98.31% CPU
+Iteration 180 / LogL: -3035.073 / Time: 0h:10m:49s (0h:1m:48s left)
+Optimizing NNI: done in 2.10272 secs using 99.22% CPU
+Optimizing NNI: done in 3.08938 secs using 98.32% CPU
+Optimizing NNI: done in 2.93878 secs using 98.65% CPU
+Optimizing NNI: done in 3.16549 secs using 98.58% CPU
+Optimizing NNI: done in 2.47261 secs using 98.47% CPU
+Optimizing NNI: done in 2.89825 secs using 98.85% CPU
+Optimizing NNI: done in 2.75168 secs using 98.15% CPU
+Optimizing NNI: done in 2.58668 secs using 99.05% CPU
+Optimizing NNI: done in 2.4117 secs using 98.08% CPU
+Optimizing NNI: done in 2.98697 secs using 98.42% CPU
+Iteration 190 / LogL: -3035.374 / Time: 0h:11m:18s (0h:1m:11s left)
+Optimizing NNI: done in 2.94522 secs using 98.96% CPU
+Optimizing NNI: done in 2.12015 secs using 98.37% CPU
+Optimizing NNI: done in 2.13341 secs using 98.87% CPU
+Optimizing NNI: done in 3.31194 secs using 98.27% CPU
+Optimizing NNI: done in 2.6794 secs using 98.87% CPU
+Optimizing NNI: done in 3.73985 secs using 98.67% CPU
+Optimizing NNI: done in 2.77567 secs using 98.29% CPU
+Optimizing NNI: done in 4.25212 secs using 98.81% CPU
+Optimizing NNI: done in 2.13536 secs using 98.02% CPU
+Optimizing NNI: done in 2.90154 secs using 98.98% CPU
+Iteration 200 / LogL: -3035.072 / Time: 0h:11m:49s (0h:0m:35s left)
+Optimizing NNI: done in 3.03664 secs using 98.71% CPU
+Optimizing NNI: done in 2.48478 secs using 98.49% CPU
+Optimizing NNI: done in 2.94401 secs using 98.93% CPU
+Optimizing NNI: done in 3.05751 secs using 97.83% CPU
+Optimizing NNI: done in 3.17538 secs using 98.8% CPU
+Optimizing NNI: done in 2.20256 secs using 98.32% CPU
+Optimizing NNI: done in 2.04883 secs using 98.83% CPU
+Optimizing NNI: done in 2.84628 secs using 98.22% CPU
+Optimizing NNI: done in 2.51702 secs using 99.23% CPU
+Optimizing NNI: done in 2.96038 secs using 97.9% CPU
+Iteration 210 / LogL: -3035.711 / Time: 0h:12m:18s (0h:0m:0s left)
+Optimizing NNI: done in 3.45832 secs using 98.48% CPU
+TREE SEARCH COMPLETED AFTER 211 ITERATIONS / Time: 0h:12m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3034.956
+Optimal log-likelihood: -3034.956
+Parameters optimization took 1 rounds (0.271 sec)
+BEST SCORE FOUND : -3034.956
+Total tree length: 0.302
+
+Total number of iterations: 211
+CPU time used for tree search: 709.810 sec (0h:11m:49s)
+Wall-clock time used for tree search: 720.143 sec (0h:12m:0s)
+Total CPU time used: 731.604 sec (0h:12m:11s)
+Total wall-clock time used: 741.965 sec (0h:12m:21s)
+
+Analysis results written to: 
+  IQ-TREE report:                aligned.fasta.iqtree
+  Maximum-likelihood tree:       aligned.fasta.treefile
+  Likelihood distances:          aligned.fasta.mldist
+  Screen log file:               aligned.fasta.log
+
+Date and Time: Sat Jan 24 17:22:21 2026

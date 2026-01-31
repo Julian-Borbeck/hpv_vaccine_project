@@ -1,0 +1,12 @@
+name: population-processing
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.11
+  - iqtree
+  - muscle
+  - pandas
+  - biopython
