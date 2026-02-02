@@ -21,9 +21,11 @@ plt.rcParams.update(bundles.icml2024(column="full", nrows=2, ncols=2))
 
 cluster_colors = {
     -1: "lightgrey",
-     1: "#FFC107",
-     2: "#004D40"
+     1: "orange",
+     2: "#0069aa"
 }
+
+plot_color = "lightblue"
 
 def within_cluster_dispersion(D, labels):
     D = np.asarray(D)
@@ -209,7 +211,7 @@ p1 = sns.boxplot(
     y="ML Distance",
     width=0.6,
     showcaps=True,
-    boxprops={"facecolor": "#c7dcef", "edgecolor": "black"},
+    boxprops={"facecolor": plot_color, "edgecolor": "black"},
     medianprops={"color": "black", "linewidth": 2},
     whiskerprops={"color": "black"},
     showfliers=False,
@@ -257,8 +259,8 @@ y = grouped["logOdds"].values
 sns.regplot(
     x=x, y=y, ax=ax_scatter,
     ci=95, n_boot=2000,
-    scatter_kws=dict(s=40, edgecolor="black", alpha=0.85),
-    line_kws=dict(linestyle="--", linewidth=2)
+    scatter_kws=dict(s=40,color= plot_color ,edgecolor="black", alpha=0.85),
+    line_kws=dict(linestyle="--", linewidth=2, color= plot_color)
 )
 
 texts = []
@@ -366,6 +368,14 @@ for ax, letter in [(ax_box,"A"), (ax_mds,"B"), (ax_scatter,"C"), (ax_heat,"D")]:
 fig.savefig(
     "figure5_panel_overview.pdf",
     format="pdf",
+    bbox_inches="tight",
+    pad_inches=0.10
+)
+
+fig.savefig(
+    "figure5_panel_overview.png",
+    format="png",
+    dpi=300,           
     bbox_inches="tight",
     pad_inches=0.10
 )
