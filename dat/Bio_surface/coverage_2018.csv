@@ -1,0 +1,65 @@
+GROUP,CODE,NAME,YEAR,ANTIGEN,ANTIGEN_DESCRIPTION,COVERAGE_CATEGORY,COVERAGE_CATEGORY_DESCRIPTION,TARGET_NUMBER,DOSES,COVERAGE
+COUNTRIES,AIA,Anguilla,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,210.0,4.0,2.0
+COUNTRIES,ARG,Argentina,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,351954.0,203734.0,58.0
+COUNTRIES,ARM,Armenia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,16000.0,1409.0,8.0
+COUNTRIES,ABW,Aruba,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,801.0,404.0,50.0
+COUNTRIES,AUS,Australia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,139179.0,110671.0,79.52
+COUNTRIES,BRB,Barbados,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,1769.0,451.0,25.0
+COUNTRIES,BLZ,Belize,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,4015.0,2342.0,58.0
+COUNTRIES,BTN,Bhutan,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,6563.0,6393.0,97.0
+COUNTRIES,BOL,Bolivia (Plurinational State of),2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,129021.0,69028.0,54.0
+COUNTRIES,BRA,Brazil,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,10177813.0,1059604.0,10.0
+COUNTRIES,BRN,Brunei Darussalam,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,3018.0,2828.0,93.7
+COUNTRIES,BGR,Bulgaria,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,64162.0,3385.0,5.28
+COUNTRIES,KHM,Cambodia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,11507.0,11067.0,96.18
+COUNTRIES,CHL,Chile,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,120204.0,91105.0,76.0
+COUNTRIES,MAC,"China, Macao SAR",2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,2008.0,1772.0,88.2
+COUNTRIES,COL,Colombia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,364757.0,131913.0,36.0
+COUNTRIES,COK,Cook Islands,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,144.0,101.0,70.0
+COUNTRIES,DNK,Denmark,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,33028.0,17881.0,54.0
+COUNTRIES,DOM,Dominican Republic,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,94498.0,5871.0,6.0
+COUNTRIES,ECU,Ecuador,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,165315.0,140294.0,85.0
+COUNTRIES,EST,Estonia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,18220.0,8536.0,46.8
+COUNTRIES,ETH,Ethiopia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,1222952.0,1164615.0,95.23
+COUNTRIES,FJI,Fiji,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,7636.0,3711.0,56.6
+COUNTRIES,GEO,Georgia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,19541.0,3965.0,20.0
+COUNTRIES,GTM,Guatemala,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,367504.0,115463.0,31.0
+COUNTRIES,GUY,Guyana,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,25651.0,3214.0,13.0
+COUNTRIES,HND,Honduras,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,97742.0,53703.0,55.0
+COUNTRIES,ISL,Iceland,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,2152.0,1949.0,91.0
+COUNTRIES,IDN,Indonesia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,111323.0,19602.0,17.61
+COUNTRIES,IRL,Ireland,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,31985.0,20776.0,65.0
+COUNTRIES,ITA,Italy,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,276581.0,111107.0,40.17
+COUNTRIES,JAM,Jamaica,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,20647.0,5253.0,25.0
+COUNTRIES,JPN,Japan,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,548000.0,1782.0,0.33
+COUNTRIES,LVA,Latvia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,9134.0,4385.0,48.0
+COUNTRIES,LTU,Lithuania,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,12484.0,8135.0,65.1
+COUNTRIES,MYS,Malaysia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,211384.0,206562.0,97.7
+COUNTRIES,MLI,Mali,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,10324.0,10321.0,99.92
+COUNTRIES,MLT,Malta,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,1754.0,1606.0,92.0
+COUNTRIES,MHL,Marshall Islands,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,673.0,237.0,35.22
+COUNTRIES,MUS,Mauritius,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,16563.0,11418.0,68.9
+COUNTRIES,MEX,Mexico,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,1115444.0,1097095.0,98.0
+COUNTRIES,FSM,Micronesia (Federated States of),2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,1030.0,667.0,65.0
+COUNTRIES,NLD,Netherlands (Kingdom of the),2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,94273.0,42886.0,45.49
+COUNTRIES,NZL,New Zealand,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,27710.0,16817.0,60.69
+COUNTRIES,MKD,North Macedonia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,8165.0,4464.0,54.67
+COUNTRIES,PLW,Palau,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,245.0,224.0,91.0
+COUNTRIES,PAN,Panama,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,35557.0,24698.0,69.0
+COUNTRIES,PRY,Paraguay,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,67764.0,36858.0,54.0
+COUNTRIES,PER,Peru,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,200000.0,186757.0,93.38
+COUNTRIES,KOR,Republic of Korea,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,210010.0,146306.0,69.67
+COUNTRIES,MDA,Republic of Moldova,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,18448.0,8157.0,44.22
+COUNTRIES,RWA,Rwanda,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,137625.0,128961.0,93.7
+COUNTRIES,VCT,Saint Vincent and the Grenadines,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,837.0,32.0,4.0
+COUNTRIES,SMR,San Marino,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,147.0,77.0,52.38
+COUNTRIES,SYC,Seychelles,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,705.0,1362.0,97.1
+COUNTRIES,SVN,Slovenia,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,9075.0,4494.0,49.5
+COUNTRIES,ZAF,South Africa,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,428025.0,237739.0,56.0
+COUNTRIES,ESP,Spain,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,223015.0,162335.0,72.8
+COUNTRIES,LKA,Sri Lanka,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,345831.0,199579.0,58.0
+COUNTRIES,SUR,Suriname,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,12188.0,5518.0,45.0
+COUNTRIES,TTO,Trinidad and Tobago,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,17000.0,2683.0,16.0
+COUNTRIES,UGA,Uganda,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,597874.0,442206.0,73.96
+COUNTRIES,GBR,United Kingdom of Great Britain and Northern Ireland,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,354658.0,297610.0,84.0
+COUNTRIES,TZA,United Republic of Tanzania,2018.0,HPV_FEM,"HPV Female, final dose",ADMIN,Administrative coverage,321691.5,128021.0,40.0

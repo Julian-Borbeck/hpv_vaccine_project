@@ -1,0 +1,17 @@
+name: L1-plotting
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - biopython
+  - geopandas
+  - matplotlib
+  - scipy
+  - seaborn
+  - numpy
+  - pandas
+  - openpyxl
